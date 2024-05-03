@@ -3579,7 +3579,7 @@ levelup SPECIES_MEGANIUM
 
 levelup SPECIES_CYNDAQUIL
     learnset MOVE_TACKLE, 1
-    learnset MOVE_HEAT_WAVE, 1
+    learnset MOVE_LEER, 1
     learnset MOVE_SMOKESCREEN, 6
     learnset MOVE_EMBER, 10
     learnset MOVE_QUICK_ATTACK, 13
