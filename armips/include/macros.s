@@ -17,7 +17,7 @@
 .endmacro
 
 .macro learnset,move,level
-.if move <= MOVE_FLYING_PRESS
+.if move < NUM_OF_MOVES
     .word (level << 16 | move)
 .endif
 .endmacro
@@ -63,7 +63,7 @@
 .endmacro
 
 .macro evyields,hp,atk,def,spd,spatk,spdef
-	.halfword (hp | atk << 2 | def << 4 | spd << 6 | spatk << 8 | spdef << 10)
+	.halfword 0
 .endmacro
 
 .macro items,item1,item2

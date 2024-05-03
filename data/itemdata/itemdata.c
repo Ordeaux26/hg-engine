@@ -143,7 +143,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ULTRA_BALL] =
 {
-    .price = 1200,
+    .price = 100,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -208,7 +208,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GREAT_BALL] =
 {
-    .price = 600,
+    .price = 50,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -273,7 +273,7 @@ const ITEMDATA __data[] =
 
 [ITEM_POKE_BALL] =
 {
-    .price = 200,
+    .price = 5,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -858,7 +858,7 @@ const ITEMDATA __data[] =
 
 [ITEM_DUSK_BALL] =
 {
-    .price = 1000,
+    .price = 100,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -988,7 +988,7 @@ const ITEMDATA __data[] =
 
 [ITEM_QUICK_BALL] =
 {
-    .price = 1000,
+    .price = 100,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -1508,7 +1508,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FULL_RESTORE] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 255,
     .pluckEffect = 0,
@@ -1573,7 +1573,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_POTION] =
 {
-    .price = 2500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 255,
     .pluckEffect = 0,
@@ -1768,7 +1768,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FULL_HEAL] =
 {
-    .price = 600,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -2678,7 +2678,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_ELIXIR] =
 {
-    .price = 4500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 255,
     .pluckEffect = 0,
@@ -2987,7 +2987,7 @@ const ITEMDATA __data[] =
         .friendship_mod_lo = TRUE,
         .friendship_mod_med = TRUE,
         .friendship_mod_hi = TRUE,
-        .hp_ev_up_param = 10,
+        .hp_ev_up_param = 0,
         .atk_ev_up_param = 0,
         .def_ev_up_param = 0,
         .speed_ev_up_param = 0,
@@ -3053,7 +3053,7 @@ const ITEMDATA __data[] =
         .friendship_mod_med = TRUE,
         .friendship_mod_hi = TRUE,
         .hp_ev_up_param = 0,
-        .atk_ev_up_param = 10,
+        .atk_ev_up_param = 0,
         .def_ev_up_param = 0,
         .speed_ev_up_param = 0,
         .spatk_ev_up_param = 0,
@@ -3119,7 +3119,7 @@ const ITEMDATA __data[] =
         .friendship_mod_hi = TRUE,
         .hp_ev_up_param = 0,
         .atk_ev_up_param = 0,
-        .def_ev_up_param = 10,
+        .def_ev_up_param = 0,
         .speed_ev_up_param = 0,
         .spatk_ev_up_param = 0,
         .spdef_ev_up_param = 0,
@@ -3185,7 +3185,7 @@ const ITEMDATA __data[] =
         .hp_ev_up_param = 0,
         .atk_ev_up_param = 0,
         .def_ev_up_param = 0,
-        .speed_ev_up_param = 10,
+        .speed_ev_up_param = 0,
         .spatk_ev_up_param = 0,
         .spdef_ev_up_param = 0,
         .hp_restore_param = 0,
@@ -3251,7 +3251,7 @@ const ITEMDATA __data[] =
         .atk_ev_up_param = 0,
         .def_ev_up_param = 0,
         .speed_ev_up_param = 0,
-        .spatk_ev_up_param = 10,
+        .spatk_ev_up_param = 0,
         .spdef_ev_up_param = 0,
         .hp_restore_param = 0,
         .pp_restore_param = 0,
@@ -3263,15 +3263,15 @@ const ITEMDATA __data[] =
 
 [ITEM_RARE_CANDY] =
 {
-    .price = 4800,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
-    .flingPower = 30,
+    .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_MEDICINE,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -3447,7 +3447,7 @@ const ITEMDATA __data[] =
         .def_ev_up_param = 0,
         .speed_ev_up_param = 0,
         .spatk_ev_up_param = 0,
-        .spdef_ev_up_param = 10,
+        .spdef_ev_up_param = 0,
         .hp_restore_param = 0,
         .pp_restore_param = 0,
         .friendship_mod_lo_param =  5,
@@ -5018,7 +5018,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_REPEL] =
 {
-    .price = 700,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 250,
     .pluckEffect = 0,
@@ -19655,9 +19655,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 0,
+    .fieldUseFunc = 20,
     .battleUseFunc = 0,
-    .partyUse = 0,
+    .partyUse = 1,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -19670,7 +19670,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = FALSE,
+        .evolve = TRUE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -20033,7 +20033,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM03 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20358,7 +20358,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM08 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1500,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20423,7 +20423,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM09 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20553,7 +20553,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM11 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20748,7 +20748,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM14 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 5500,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20813,7 +20813,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM15 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 7500,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20878,7 +20878,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM16 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21138,7 +21138,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM20 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21593,7 +21593,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM27 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1000,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21983,7 +21983,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM33 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22048,7 +22048,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM34 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22438,7 +22438,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM40 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22763,7 +22763,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM45 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22828,7 +22828,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM46 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23218,7 +23218,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM52 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 5500,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24258,7 +24258,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM68 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 7500,
+    .price = 1,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -47981,7 +47981,7 @@ const ITEMDATA __data[] =
     },
 },
 
-[ITEM_SCROLL_OF_DARKNESS - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
+[ITEM_INFINITE_CANDY - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 0,
     .holdEffect = 0,
@@ -47995,9 +47995,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_KEY_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 0,
+    .fieldUseFunc = 1,
     .battleUseFunc = 0,
-    .partyUse = 0,
+    .partyUse = 1,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -48007,10 +48007,10 @@ const ITEMDATA __data[] =
         .cfs_heal = FALSE,
         .inf_heal = FALSE,
         .guard_spec = FALSE,
-        .revive = FALSE,
+        .revive = TRUE,
         .revive_all = FALSE,
-        .level_up = FALSE,
-        .evolve = TRUE,
+        .level_up = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -48029,9 +48029,9 @@ const ITEMDATA __data[] =
         .speed_ev_up = FALSE,
         .spatk_ev_up = FALSE,
         .spdef_ev_up = FALSE,
-        .friendship_mod_lo = FALSE,
-        .friendship_mod_med = FALSE,
-        .friendship_mod_hi = FALSE,
+        .friendship_mod_lo = TRUE,
+        .friendship_mod_med = TRUE,
+        .friendship_mod_hi = TRUE,
         .hp_ev_up_param = 0,
         .atk_ev_up_param = 0,
         .def_ev_up_param = 0,
@@ -48040,9 +48040,9 @@ const ITEMDATA __data[] =
         .spdef_ev_up_param = 0,
         .hp_restore_param = 0,
         .pp_restore_param = 0,
-        .friendship_mod_lo_param =  0,
-        .friendship_mod_med_param = 0,
-        .friendship_mod_hi_param =  0,
+        .friendship_mod_lo_param =  5,
+        .friendship_mod_med_param = 3,
+        .friendship_mod_hi_param =  2,
     },
 },
 

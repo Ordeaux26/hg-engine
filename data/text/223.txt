@@ -759,7 +759,7 @@ a {COLOR 255}Rotom Catalog{COLOR 0}
 an {COLOR 255}Adamant Crystal{COLOR 0}
 a {COLOR 255}Lustrous Globe{COLOR 0}
 a {COLOR 255}Griseous Core{COLOR 0}
-a {COLOR 255}Darkness Scroll{COLOR 0}
+a {COLOR 255}Infinite Candy{COLOR 0}
 a {COLOR 255}Waters Scroll{COLOR 0}
 a {COLOR 255}Mega Ring{COLOR 0}
 an {COLOR 255}Autograph{COLOR 0}

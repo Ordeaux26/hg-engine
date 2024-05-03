@@ -9,9 +9,9 @@
 // sequence. To update that text, modify text archive 190 in
 // DSPRE.
 .macro STARTER_CHOICES
-    .word SPECIES_CHIKORITA
-    .word SPECIES_CYNDAQUIL
-    .word SPECIES_TOTODILE
+    .word SPECIES_SNIVY
+    .word SPECIES_TEPIG
+    .word SPECIES_OSHAWOTT
 .endmacro
 
 .open "base/arm9.bin", 0x02000000
@@ -19,8 +19,9 @@
 .org 0x02108514
 
 sStarterChoices_Species:
-    STARTER_CHOICES
-
+    .word SPECIES_SNIVY
+    .word SPECIES_TEPIG
+    .word SPECIES_OSHAWOTT
 .close
 
 .open "base/overlay/overlay_0061.bin", 0x021E5900
@@ -28,6 +29,7 @@ sStarterChoices_Species:
 .org 0x021E7398 // 0x021E5900 + 0x1A98
 
 sStarterChoices_Cries:
-    STARTER_CHOICES
-
+    .word SPECIES_SNIVY
+    .word SPECIES_TEPIG
+    .word SPECIES_OSHAWOTT
 .close

@@ -16,6 +16,10 @@
 .include "armips/asm/pokedex.s" // code for pokedex expansion, including expanding the save
 .include "armips/asm/overworlds.s" // code for overworlds, specifically repointing gOWTagToFileNum and making dimorphism a byte instead of a halfword.
 .include "armips/asm/y9.s" // add new overlay entries to the y9 table
+.include "armips/asm/martitems.s" // changing the mart items
+.include "armips/asm/hms.s" // allow the use of Surf and Waterfall without needing the move on a mon
+.include "armips/asm/hidden_power.s" // make Hidden Power always 60 BP
+.include "armips/asm/hp_bar_speed.s" // increases HP bar speed
 
 .include "armips/data/starters.s" // data definitions for which species to use for the starter Pokemon
 

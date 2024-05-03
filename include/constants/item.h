@@ -815,7 +815,7 @@
 #define ITEM_ADAMANT_CRYSTAL    (ITEM_PIXIE_PLATE + 174)
 #define ITEM_LUSTROUS_GLOBE     (ITEM_PIXIE_PLATE + 175)
 #define ITEM_GRISEOUS_CORE      (ITEM_PIXIE_PLATE + 176)
-#define ITEM_SCROLL_OF_DARKNESS (ITEM_PIXIE_PLATE + 177)
+#define ITEM_INFINITE_CANDY     (ITEM_PIXIE_PLATE + 177)
 #define ITEM_SCROLL_OF_WATERS   (ITEM_PIXIE_PLATE + 178)
 #define ITEM_MEGA_RING          (ITEM_PIXIE_PLATE + 179)
 
@@ -860,7 +860,7 @@
 #define NUM_UNKNOWN_SLOTS 22 // used to adjust in data/itemdata.c
 #define NUM_UNKNOWN_SLOTS_EXPLORER_KIT (NUM_UNKNOWN_SLOTS+1) // used to adjust in data/itemdata.c
 
-#define NEW_ITEM_MAX ITEM_TEA
+#define NEW_ITEM_MAX ITEM_SERIOUS_MINT
 
 #define BAG_SLOT_QUANTITY_MAX                    999
 #define BAG_TMHM_QUANTITY_MAX                     99

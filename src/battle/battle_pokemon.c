@@ -59,6 +59,7 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_FLYING, TYPE_ROCK, 0x05 },
     { TYPE_FLYING, TYPE_BUG, 0x14 },
     { TYPE_FLYING, TYPE_STEEL, 0x05 },
+    { TYPE_FLYING, TYPE_ICE, 0x05 },
     { TYPE_FLYING, TYPE_GRASS, 0x14 },
     { TYPE_FLYING, TYPE_ELECTRIC, 0x05 },
     { TYPE_POISON, TYPE_POISON, 0x05 },
@@ -71,12 +72,15 @@ u8 TypeEffectivenessTable[][3] =
 #endif
 
     { TYPE_POISON, TYPE_GRASS, 0x14 },
+    { TYPE_POISON, TYPE_WATER, 0x14 },
+    { TYPE_GROUND, TYPE_FLYING, 0x00 },
     { TYPE_GROUND, TYPE_POISON, 0x14 },
     { TYPE_GROUND, TYPE_ROCK, 0x14 },
     { TYPE_GROUND, TYPE_BUG, 0x05 },
     { TYPE_GROUND, TYPE_STEEL, 0x14 },
     { TYPE_GROUND, TYPE_FIRE, 0x14 },
     { TYPE_GROUND, TYPE_GRASS, 0x05 },
+    { TYPE_GROUND, TYPE_ICE, 0x05 },
     { TYPE_GROUND, TYPE_ELECTRIC, 0x14 },
     { TYPE_ROCK, TYPE_FIGHTING, 0x05 },
     { TYPE_ROCK, TYPE_FLYING, 0x14 },
@@ -85,16 +89,11 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_ROCK, TYPE_STEEL, 0x05 },
     { TYPE_ROCK, TYPE_FIRE, 0x14 },
     { TYPE_ROCK, TYPE_ICE, 0x14 },
-    { TYPE_BUG, TYPE_FIGHTING, 0x05 },
+    { TYPE_BUG, TYPE_DRAGON, 0x05 },
     { TYPE_BUG, TYPE_FLYING, 0x05 },
     { TYPE_BUG, TYPE_POISON, 0x05 },
     { TYPE_BUG, TYPE_GHOST, 0x05 },
     { TYPE_BUG, TYPE_STEEL, 0x05 },
-
-#if FAIRY_TYPE_IMPLEMENTED == 1
-    { TYPE_BUG, TYPE_FAIRY, 0x05 },
-#endif
-
     { TYPE_BUG, TYPE_FIRE, 0x05 },
     { TYPE_BUG, TYPE_GRASS, 0x14 },
     { TYPE_BUG, TYPE_PSYCHIC, 0x14 },
@@ -102,6 +101,7 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_GHOST, TYPE_GHOST, 0x14 },
     { TYPE_GHOST, TYPE_PSYCHIC, 0x14 },
     { TYPE_GHOST, TYPE_DARK, 0x05 },
+    { TYPE_GHOST, TYPE_STEEL, 0x05 },
     { TYPE_STEEL, TYPE_ROCK, 0x14 },
     { TYPE_STEEL, TYPE_STEEL, 0x05 },
 
