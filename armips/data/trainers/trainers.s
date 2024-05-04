@@ -10939,7 +10939,7 @@ trainerdata 290, "Li"
         ivs 0
         abilityslot 0
         level 14
-        pokemon SPECIES_PANPOR
+        pokemon SPECIES_PANPOUR
         item ITEM_ORAN_BERRY
         move MOVE_WATER_SPOUT
         move MOVE_NONE

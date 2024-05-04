@@ -16045,52 +16045,52 @@ levelup SPECIES_MALAMAR
 
 
 levelup SPECIES_BINACLE
-    learnset MOVE_MUD_SLAP, 1
     learnset MOVE_SCRATCH, 1
-    learnset MOVE_SHELL_SMASH, 1
-    learnset MOVE_SAND_ATTACK, 1
-    learnset MOVE_WITHDRAW, 5
+    learnset MOVE_MUD_SLAP, 1
+    learnset MOVE_CLAMP, 3
     learnset MOVE_WATER_GUN, 6
-    learnset MOVE_FURY_SWIPES, 13
-    learnset MOVE_MUD_SLAP, 18
-    learnset MOVE_CLAMP, 20
-    learnset MOVE_SLASH, 21
-    learnset MOVE_FURY_CUTTER, 23
-    learnset MOVE_ANCIENT_POWER, 23
-    learnset MOVE_ROCK_POLISH, 24
-    learnset MOVE_HONE_CLAWS, 32
-    learnset MOVE_RAZOR_SHELL, 40
-    learnset MOVE_SHELL_SMASH, 40
-    learnset MOVE_NIGHT_SLASH, 41
-    learnset MOVE_CROSS_CHOP, 46
+    learnset MOVE_ROCK_BLAST, 10
+    learnset MOVE_FURY_CUTTER, 14
+    learnset MOVE_ROCK_TOMB, 17
+    learnset MOVE_RAZOR_SHELL, 20
+    learnset MOVE_THIEF, 23
+    learnset MOVE_SLASH, 25
+    learnset MOVE_ROCK_SLIDE, 28
+    learnset MOVE_NIGHT_SLASH, 31
+    learnset MOVE_ANCIENT_POWER, 33
+    learnset MOVE_WATERFALL, 36
+    learnset MOVE_KNOCK_OFF, 39
+    learnset MOVE_LIQUIDATION, 42
+    learnset MOVE_CROSS_CHOP, 45
+    learnset MOVE_STONE_EDGE, 51
     terminatelearnset
 
 
 levelup SPECIES_BARBARACLE
-    learnset MOVE_SKULL_BASH, 1
-    learnset MOVE_MUD_SLAP, 1
     learnset MOVE_SCRATCH, 1
-    learnset MOVE_WITHDRAW, 1
+    learnset MOVE_MUD_SLAP, 1
+    learnset MOVE_CLAMP, 1
     learnset MOVE_WATER_GUN, 1
-    learnset MOVE_STONE_EDGE, 1
-    learnset MOVE_SHELL_SMASH, 1
-    learnset MOVE_SAND_ATTACK, 1
-    learnset MOVE_WATER_GUN, 4
-    learnset MOVE_WITHDRAW, 7
-    learnset MOVE_FURY_SWIPES, 13
-    learnset MOVE_MUD_SLAP, 18
-    learnset MOVE_CLAMP, 20
-    learnset MOVE_SLASH, 21
-    learnset MOVE_FURY_CUTTER, 23
-    learnset MOVE_ANCIENT_POWER, 23
-    learnset MOVE_ROCK_POLISH, 24
-    learnset MOVE_HONE_CLAWS, 32
-    learnset MOVE_RAZOR_SHELL, 41
-    learnset MOVE_SHELL_SMASH, 42
-    learnset MOVE_NIGHT_SLASH, 44
-    learnset MOVE_CROSS_CHOP, 51
-    learnset MOVE_STONE_EDGE, 56
-    learnset MOVE_SKULL_BASH, 65
+    learnset MOVE_HONE_CLAWS, 1
+    learnset MOVE_SWITCHEROO, 1
+    learnset MOVE_ROCK_BLAST, 1
+    learnset MOVE_FURY_CUTTER, 1
+    learnset MOVE_RAZOR_SHELL, 1
+    learnset MOVE_THIEF, 1
+    learnset MOVE_SLASH, 1
+    learnset MOVE_ANCIENT_POWER, 1
+    learnset MOVE_NIGHT_SLASH, 1
+    learnset MOVE_ROCK_SLIDE, 1
+    learnset MOVE_WATERFALL, 1
+    learnset MOVE_KNOCK_OFF, 39
+    learnset MOVE_LIQUIDATION, 43
+    learnset MOVE_CROSS_CHOP, 47
+    learnset MOVE_STONE_EDGE, 54
+    learnset MOVE_EARTHQUAKE, 56
+    learnset MOVE_WAVE_CRASH, 61
+    learnset MOVE_ROCK_CLIMB, 76
+    learnset MOVE_SUPERPOWER, 83
+    learnset MOVE_HEAD_SMASH, 90
     terminatelearnset
 
 

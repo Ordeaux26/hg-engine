@@ -2454,6 +2454,7 @@ eggmoveentry SPECIES_SNIVY
     eggmove MOVE_CAPTIVATE
     eggmove MOVE_GLARE
     eggmove MOVE_IRON_TAIL
+    eggmove MOVE_LEAF_STORM
     eggmove MOVE_MAGICAL_LEAF
     eggmove MOVE_MEAN_LOOK
     eggmove MOVE_MIRROR_COAT
