@@ -14501,6 +14501,7 @@ levelup SPECIES_MIENSHAO
     learnset MOVE_LOW_KICK, 1
     learnset MOVE_QUICK_GUARD, 1
     learnset MOVE_WIDE_GUARD, 1
+    learnset MOVE_TRIPLE_AXEL, 1
     learnset MOVE_DETECT, 1
     learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_BOUNCE, 1
