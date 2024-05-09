@@ -9285,7 +9285,7 @@ mondata SPECIES_CHATOT, "Chatot"
     basefriendship 35
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_KEEN_EYE, ABILITY_BIG_PECKS
+    abilities ABILITY_KEEN_EYE, ABILITY_SOUNDPROOF
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_CHATOT, "It mimics the cries of other Pokémon to\ntrick them into thinking it’s one of them.\nThis way they won’t attack it."
@@ -14020,7 +14020,7 @@ mondata SPECIES_SHELMET, "Shelmet"
 
 
 mondata SPECIES_ACCELGOR, "Accelgor"
-    basestats 80, 70, 40, 145, 120, 60
+    basestats 70, 80, 40, 145, 120, 60
     types TYPE_BUG, TYPE_BUG
     catchrate 75
     baseexp 0 // defined in baseexp.s
