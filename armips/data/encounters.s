@@ -843,102 +843,102 @@ encounterdata   8   // Route 32
 
 walkrate 25
 surfrate 15
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 6, 4, 6, 4, 6, 6, 6, 6, 6, 4, 6, 4
+rocksmashrate 25
+oldrodrate 100
+goodrodrate 100
+superrodrate 100
+walklevels 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13
 
 // morning encounter slots
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_BUDEW
+pokemon SPECIES_FOONGUS
+pokemon SPECIES_BUDEW
+pokemon SPECIES_FOONGUS
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_MAGBY
+pokemon SPECIES_MAGBY
+pokemon SPECIES_PACHIRISU
+pokemon SPECIES_SOLOSIS
+pokemon SPECIES_PACHIRISU
+pokemon SPECIES_TANGELA
 
 // day encounter slots
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_JOLTIK
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_JOLTIK
+pokemon SPECIES_FOONGUS
+pokemon SPECIES_FOONGUS
+pokemon SPECIES_PETILIL
+pokemon SPECIES_PETILIL
+pokemon SPECIES_DEDENNE
+pokemon SPECIES_MUNNA
+pokemon SPECIES_DEDENNE
+pokemon SPECIES_TANGELA
 
 // night encounter slots
-pokemon SPECIES_WOOPER
-pokemon SPECIES_RATTATA
-pokemon SPECIES_WOOPER
-pokemon SPECIES_RATTATA
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
-pokemon SPECIES_WOOPER
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_WOOPER
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_MAGBY
+pokemon SPECIES_ELGYEM
+pokemon SPECIES_MAGBY
+pokemon SPECIES_ELGYEM
+pokemon SPECIES_SCRAGGY
+pokemon SPECIES_SCRAGGY
+pokemon SPECIES_MUNNA
+pokemon SPECIES_MUNNA
+pokemon SPECIES_PETILIL
+pokemon SPECIES_MAGNEMITE
+pokemon SPECIES_PETILIL
+pokemon SPECIES_RIOLU
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_NONE
+pokemon SPECIES_NONE
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_NONE
+pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_QUAGSIRE, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 36, 36
+encounter SPECIES_GRENINJA, 35, 35
+encounter SPECIES_GRENINJA, 35, 35
+encounter SPECIES_FRILLISH, 35, 35
+encounter SPECIES_FRILLISH, 35, 35
+encounter SPECIES_FRILLISH, 35, 35
 
 // rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NOSEPASS, 10, 10
+encounter SPECIES_BINACLE, 10, 10
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MANTYKE, 7, 7
+encounter SPECIES_BASCULIN, 7, 7
+encounter SPECIES_MANTYKE, 7, 7
+encounter SPECIES_MANTYKE, 7, 7
+encounter SPECIES_MANTYKE, 7, 7
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_QWILFISH, 20, 20
+encounter SPECIES_SEISMITOAD, 38, 38
+encounter SPECIES_MANTYKE, 38, 38
+encounter SPECIES_MANTYKE, 38, 38
+encounter SPECIES_MANTYKE, 38, 38
+encounter SPECIES_MANTYKE, 38, 38
 
 // super rod encounters
-encounter SPECIES_TENTACOOL, 40, 40
-encounter SPECIES_TENTACOOL, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_QWILFISH, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_PIPLUP, 40, 40
+encounter SPECIES_PIPLUP, 40, 40
+encounter SPECIES_PIPLUP, 40, 40
+encounter SPECIES_PIPLUP, 40, 40
+encounter SPECIES_PIPLUP, 40, 40
 
 // swarm grass
-pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_NONE
 // swarm surf
-pokemon SPECIES_TENTACOOL
+pokemon SPECIES_NONE
 // swarm good rod
-pokemon SPECIES_TENTACOOL
+pokemon SPECIES_NONE
 // swarm super rod
-pokemon SPECIES_QWILFISH
+pokemon SPECIES_NONE
 
 .close
 

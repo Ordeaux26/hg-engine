@@ -864,7 +864,7 @@ trainerdata 21, "Bugsy"
         pokemon SPECIES_VIVILLON
         item ITEM_EJECT_BUTTON
         move MOVE_SLEEP_POWDER
-        move MOVE_U_TURN
+        move MOVE_POWDER
         move MOVE_AIR_CUTTER
         move MOVE_ROOST
         ability ABILITY_COMPOUND_EYES

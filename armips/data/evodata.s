@@ -8967,7 +8967,7 @@ evodata SPECIES_HELIOLISK
 terminateevodata
 
 evodata SPECIES_TYRUNT
-    evolution EVO_LEVEL_DAY, 39, SPECIES_TYRANTRUM
+    evolution EVO_LEVEL_DAY, 37, SPECIES_TYRANTRUM
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8991,7 +8991,7 @@ evodata SPECIES_TYRANTRUM
 terminateevodata
 
 evodata SPECIES_AMAURA
-    evolution EVO_LEVEL, 39, SPECIES_AURORUS
+    evolution EVO_LEVEL, 37, SPECIES_AURORUS
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
