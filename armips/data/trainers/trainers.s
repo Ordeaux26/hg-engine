@@ -8158,7 +8158,7 @@ trainerdata 244, "Lance"
         item ITEM_CHOICE_SCARF
         move MOVE_ICE_BEAM
         move MOVE_FLAMETHROWER
-        move MOVE_THUNDERBOLT
+        move MOVE_ZAP_CANNON
         move MOVE_EXPLOSION
         ability ABILITY_DOWNLOAD
         ball ITEM_MASTER_BALL
@@ -24792,7 +24792,7 @@ trainerdata 701, "Lance"
         item ITEM_CHOICE_SCARF
         move MOVE_ICE_BEAM
         move MOVE_FLAMETHROWER
-        move MOVE_THUNDERBOLT
+        move MOVE_ZAP_CANNON
         move MOVE_EXPLOSION
         ability ABILITY_DOWNLOAD
         ball ITEM_MASTER_BALL

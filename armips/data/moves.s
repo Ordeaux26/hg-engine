@@ -3081,13 +3081,13 @@ movedata MOVE_SPIKES, "Spikes"
     movedescription MOVE_SPIKES, "The user lays a trap\nof spikes at the\nfoe’s feet. The trap\nhurts foes that\nswitch into battle."
 
 movedata MOVE_ZAP_CANNON, "Zap Cannon"
-    battleeffect MOVE_EFFECT_PARALYZE_HIT
+    battleeffect MOVE_EFFECT_RECOIL_PARALYZE_HIT
     pss SPLIT_SPECIAL
     basepower 120
     type TYPE_ELECTRIC
-    accuracy 50
+    accuracy 100
     pp 5
-    effectchance 100
+    effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -5403,7 +5403,7 @@ movedata MOVE_HOWL, "Howl"
 movedata MOVE_DRAGON_CLAW, "Dragon Claw"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 85
     type TYPE_DRAGON
     accuracy 100
     pp 15
