@@ -723,7 +723,7 @@ trainerdata 20, "Falkner"
         level 14
         pokemon SPECIES_GLIGAR
         item ITEM_YACHE_BERRY
-        move MOVE_WING_ATTACK
+        move MOVE_FLY
         move MOVE_FALSE_SWIPE
         move MOVE_ROCK_THROW
         move MOVE_ICE_FANG
@@ -15075,7 +15075,7 @@ trainerdata 418, "Bruno"
         abilityslot 0
         level 100
         pokemon SPECIES_RHYPERIOR
-        item ITEM_SITRUS_BERRY
+        item ITEM_QUICK_CLAW
         move MOVE_EARTHQUAKE
         move MOVE_STONE_EDGE
         move MOVE_BODY_PRESS
@@ -15102,7 +15102,7 @@ trainerdata 418, "Bruno"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_MODEST
+        nature NATURE_ADAMANT
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -25210,7 +25210,7 @@ trainerdata 704, "Bruno"
         abilityslot 0
         level 100
         pokemon SPECIES_RHYPERIOR
-        item ITEM_SITRUS_BERRY
+        item ITEM_QUICK_CLAW
         move MOVE_EARTHQUAKE
         move MOVE_STONE_EDGE
         move MOVE_BODY_PRESS
@@ -25237,7 +25237,7 @@ trainerdata 704, "Bruno"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_MODEST
+        nature NATURE_ADAMANT
         shinylock 0
         additionalflags 0
         ballseal 0
