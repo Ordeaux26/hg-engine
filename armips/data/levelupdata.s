@@ -11880,9 +11880,10 @@ levelup SPECIES_DEWOTT
     learnset MOVE_WATERFALL, 28
     learnset MOVE_AIR_SLASH, 31
     learnset MOVE_AVALANCHE, 33
-    learnset MOVE_NIGHT_SLASH, 35
+    learnset MOVE_KNOCK_OFF, 35
     learnset MOVE_LIQUIDATION, 37
     learnset MOVE_RAZOR_SHELL, 43
+    learnset MOVE_NIGHT_SLASH, 46
     learnset MOVE_SACRED_SWORD, 52
     terminatelearnset
 
@@ -11899,10 +11900,10 @@ levelup SPECIES_SAMUROTT
     learnset MOVE_FURY_CUTTER, 1
     learnset MOVE_AQUA_JET, 1
     learnset MOVE_AVALANCHE, 1
-    learnset MOVE_NIGHT_SLASH, 1
+    learnset MOVE_KNOCK_OFF, 1
     learnset MOVE_LIQUIDATION, 38
     learnset MOVE_AQUA_TAIL, 41
-    learnset MOVE_KNOCK_OFF, 46
+    learnset MOVE_NIGHT_SLASH, 46
     learnset MOVE_RAZOR_SHELL, 50
     learnset MOVE_ICE_BEAM, 53
     learnset MOVE_DETECT, 57
