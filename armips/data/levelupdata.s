@@ -11878,9 +11878,9 @@ levelup SPECIES_DEWOTT
     learnset MOVE_ICY_WIND, 20
     learnset MOVE_REVENGE, 23
     learnset MOVE_WATERFALL, 28
-    learnset MOVE_AERIAL_ACE, 31
+    learnset MOVE_AIR_SLASH, 31
     learnset MOVE_AVALANCHE, 33
-    learnset MOVE_BRICK_BREAK, 35
+    learnset MOVE_NIGHT_SLASH, 35
     learnset MOVE_LIQUIDATION, 37
     learnset MOVE_RAZOR_SHELL, 43
     learnset MOVE_SACRED_SWORD, 52
@@ -11889,18 +11889,20 @@ levelup SPECIES_DEWOTT
 
 levelup SPECIES_SAMUROTT
     learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_SCREECH, 1
     learnset MOVE_WATERFALL, 1
     learnset MOVE_ENCORE, 1
     learnset MOVE_BULLDOZE, 1
     learnset MOVE_WATER_PLEDGE, 1
     learnset MOVE_HYDRO_CANNON, 1
-    learnset MOVE_KNOCK_OFF, 1
     learnset MOVE_CEASELESS_EDGE, 1
     learnset MOVE_FURY_CUTTER, 1
     learnset MOVE_AQUA_JET, 1
     learnset MOVE_AVALANCHE, 1
+    learnset MOVE_NIGHT_SLASH, 1
     learnset MOVE_LIQUIDATION, 38
     learnset MOVE_AQUA_TAIL, 41
+    learnset MOVE_KNOCK_OFF, 46
     learnset MOVE_RAZOR_SHELL, 50
     learnset MOVE_ICE_BEAM, 53
     learnset MOVE_DETECT, 57
@@ -26665,40 +26667,39 @@ levelup SPECIES_UNFEZANT_FEMALE
 
 
 levelup SPECIES_FRILLISH_FEMALE
-    learnset MOVE_BUBBLE, 1
-    learnset MOVE_WATER_SPORT, 1
-    learnset MOVE_ABSORB, 5
-    learnset MOVE_NIGHT_SHADE, 9
-    learnset MOVE_BUBBLE_BEAM, 13
-    learnset MOVE_RECOVER, 17
-    learnset MOVE_WATER_PULSE, 22
-    learnset MOVE_OMINOUS_WIND, 27
-    learnset MOVE_BRINE, 32
-    learnset MOVE_RAIN_DANCE, 37
-    //learnset MOVE_HEX, 43
-    learnset MOVE_HYDRO_PUMP, 49
-    learnset MOVE_WRING_OUT, 55
-    learnset MOVE_WATER_SPOUT, 61
+    learnset MOVE_ABSORB, 1
+    learnset MOVE_WATER_GUN, 1
+    learnset MOVE_POISON_STING, 1
+    learnset MOVE_NIGHT_SHADE, 8
+    learnset MOVE_WATER_PULSE, 15
+    learnset MOVE_HEX, 23
+    learnset MOVE_CONFUSE_RAY, 25
+    learnset MOVE_BRINE, 29
+    learnset MOVE_SCALD, 33
+    learnset MOVE_ICY_WIND, 36
+    learnset MOVE_WATER_SPOUT, 57
     terminatelearnset
 
 
 levelup SPECIES_JELLICENT_FEMALE
-    learnset MOVE_BUBBLE, 1
-    learnset MOVE_WATER_SPORT, 1
-    learnset MOVE_ABSORB, 1
+    learnset MOVE_GIGA_DRAIN, 1
+    learnset MOVE_SCALD, 1
+    learnset MOVE_SLUDGE_WAVE, 1
+    learnset MOVE_IMPRISON, 1
+    learnset MOVE_WILL_O_WISP, 1
+    learnset MOVE_ICY_WIND, 1
     learnset MOVE_NIGHT_SHADE, 1
-    learnset MOVE_ABSORB, 5
-    learnset MOVE_NIGHT_SHADE, 9
-    learnset MOVE_BUBBLE_BEAM, 13
-    learnset MOVE_RECOVER, 17
-    learnset MOVE_WATER_PULSE, 22
-    learnset MOVE_OMINOUS_WIND, 27
-    learnset MOVE_BRINE, 32
-    learnset MOVE_RAIN_DANCE, 37
-    //learnset MOVE_HEX, 45
-    learnset MOVE_HYDRO_PUMP, 53
-    learnset MOVE_WRING_OUT, 61
-    learnset MOVE_WATER_SPOUT, 69
+    learnset MOVE_DESTINY_BOND, 1
+    learnset MOVE_HEX, 1
+    learnset MOVE_BRINE, 29
+    learnset MOVE_SCALD, 33
+    learnset MOVE_ICY_WIND, 36
+    learnset MOVE_SURF, 42
+    learnset MOVE_SHADOW_BALL, 43
+    learnset MOVE_HYDRO_PUMP, 52
+    learnset MOVE_CONFUSE_RAY, 55
+    learnset MOVE_WATER_SPOUT, 63
+    learnset MOVE_OMINOUS_WIND, 95
     terminatelearnset
 
 
