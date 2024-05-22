@@ -9471,43 +9471,49 @@ levelup SPECIES_PACHIRISU
 
 
 levelup SPECIES_BUIZEL
-    learnset MOVE_SONIC_BOOM, 1
-    learnset MOVE_GROWL, 4
-    learnset MOVE_WATER_SPORT, 7
-    learnset MOVE_QUICK_ATTACK, 11
-    learnset MOVE_WATER_GUN, 15
-    learnset MOVE_PURSUIT, 18
-    learnset MOVE_SWIFT, 21
-    learnset MOVE_AQUA_JET, 24
-    learnset MOVE_DOUBLE_HIT, 27
-    learnset MOVE_WHIRLPOOL, 31
-    learnset MOVE_RAZOR_WIND, 35
-    learnset MOVE_AQUA_TAIL, 38
-    learnset MOVE_AGILITY, 41
-    learnset MOVE_HYDRO_PUMP, 45
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_GROWL, 1
+    learnset MOVE_QUICK_ATTACK, 6
+    learnset MOVE_FURY_CUTTER, 8
+    learnset MOVE_WATER_GUN, 11
+    learnset MOVE_BITE, 14
+    learnset MOVE_AQUA_JET, 19
+    learnset MOVE_FAKE_OUT, 22
+    learnset MOVE_ICE_FANG, 25
+    learnset MOVE_WATERFALL, 27
+    learnset MOVE_CRUNCH, 32
+    learnset MOVE_ICE_PUNCH, 37
+    learnset MOVE_LIQUIDATION, 42
+    learnset MOVE_AQUA_TAIL, 48
+    learnset MOVE_AGILITY, 54
     terminatelearnset
 
 
 levelup SPECIES_FLOATZEL
-    learnset MOVE_ICE_FANG, 1
-    learnset MOVE_CRUNCH, 1
-    learnset MOVE_SONIC_BOOM, 1
+    learnset MOVE_HELPING_HAND, 1
+    learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1
-    learnset MOVE_WATER_SPORT, 1
     learnset MOVE_QUICK_ATTACK, 1
-    learnset MOVE_GROWL, 4
-    learnset MOVE_WATER_SPORT, 7
-    learnset MOVE_QUICK_ATTACK, 11
-    learnset MOVE_WATER_GUN, 15
-    learnset MOVE_PURSUIT, 18
-    learnset MOVE_SWIFT, 21
-    learnset MOVE_AQUA_JET, 24
-    learnset MOVE_DOUBLE_HIT, 29
-    learnset MOVE_WHIRLPOOL, 35
-    learnset MOVE_RAZOR_WIND, 41
-    learnset MOVE_AQUA_TAIL, 46
-    learnset MOVE_AGILITY, 51
-    learnset MOVE_HYDRO_PUMP, 57
+    learnset MOVE_FURY_CUTTER, 1
+    learnset MOVE_PSYCHIC_FANGS, 1
+    learnset MOVE_WATER_GUN, 1
+    learnset MOVE_DIVE, 1
+    learnset MOVE_SWITCHEROO, 1
+    learnset MOVE_BITE, 1
+    learnset MOVE_AQUA_JET, 1
+    learnset MOVE_FAKE_OUT, 1
+    learnset MOVE_ICE_FANG, 1
+    learnset MOVE_WATERFALL, 28
+    learnset MOVE_CRUNCH, 33
+    learnset MOVE_ICE_PUNCH, 39
+    learnset MOVE_LIQUIDATION, 43
+    learnset MOVE_CROSS_CHOP, 47
+    learnset MOVE_AQUA_TAIL, 52
+    learnset MOVE_AGILITY, 55
+    learnset MOVE_SURGING_STRIKES, 60
+    learnset MOVE_IRON_TAIL, 64
+    learnset MOVE_WAVE_CRASH, 69
+    learnset MOVE_ME_FIRST, 76
     terminatelearnset
 
 
