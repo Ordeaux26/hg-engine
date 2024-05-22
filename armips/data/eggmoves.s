@@ -2077,6 +2077,7 @@ eggmoveentry SPECIES_CHIMCHAR
     eggmove MOVE_HEAT_WAVE
     eggmove MOVE_FOCUS_ENERGY
     eggmove MOVE_HELPING_HAND
+    eggmove MOVE_PLASMA_FISTS
     eggmove MOVE_FAKE_OUT
     eggmove MOVE_BLAZE_KICK
     eggmove MOVE_COUNTER
