@@ -11878,8 +11878,8 @@ levelup SPECIES_DEWOTT
     learnset MOVE_ICY_WIND, 20
     learnset MOVE_REVENGE, 23
     learnset MOVE_WATERFALL, 28
-    learnset MOVE_AIR_SLASH, 31
-    learnset MOVE_AVALANCHE, 33
+    learnset MOVE_AVALANCHE, 31
+    learnset MOVE_AIR_SLASH, 33
     learnset MOVE_KNOCK_OFF, 35
     learnset MOVE_LIQUIDATION, 37
     learnset MOVE_RAZOR_SHELL, 43
