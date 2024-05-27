@@ -59,8 +59,14 @@ PALETTE_BUG equ 610
 .halfword PALETTE_PSYCHIC
 .skip 4
 
+// Change TM37 to GROUND palette
+.skip (8 * 4)
+.skip 2
+.halfword PALETTE_GROUND
+.skip 4
+
 // Change TM45 to ICE palette
-.skip (8 * 12)
+.skip (8 * 7)
 .skip 2
 .halfword PALETTE_ICE
 .skip 4
@@ -104,6 +110,12 @@ PALETTE_BUG equ 610
 .skip (8 * 2)
 .skip 2
 .halfword PALETTE_BUG
+.skip 4
+
+// Change HM08 to ROCK palette
+.skip (8 * 9)
+.skip 2
+.halfword PALETTE_ROCK
 .skip 4
 
 .close

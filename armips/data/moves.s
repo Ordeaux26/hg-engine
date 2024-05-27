@@ -3817,7 +3817,7 @@ movedata MOVE_HIDDEN_POWER, "Hidden Power"
     movedescription MOVE_HIDDEN_POWER, "A unique attack that\nvaries in type\ndepending on the\nPokémon using it."
 
 movedata MOVE_CROSS_CHOP, "Cross Chop"
-    battleeffect MOVE_EFFECT_HIGH_CRITICAL
+    battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_FIGHTING
@@ -6918,7 +6918,7 @@ movedata MOVE_ROCK_CLIMB, "Rock Climb"
     appeal 0x12
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_ROCK_CLIMB, "A charging attack\nthat may also leave\nthe foe confused.\nIt can also be used\nto scale rocky walls."
+    movedescription MOVE_ROCK_CLIMB, "A charging attack\nthat also lowers the\nuser’s Defense and Sp. Def.\nIt can also be used\nto scale rocky walls."
 
 movedata MOVE_DEFOG, "Defog"
     battleeffect MOVE_EFFECT_REMOVE_HAZARDS_SCREENS_EVA_DOWN
