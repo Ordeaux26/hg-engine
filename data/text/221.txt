@@ -333,7 +333,7 @@ Use it to flee from any wild Pokémon.\nIt can also warp to\nthe last Pokémon C
 The foe is scared off, to be replaced\nby another Pokémon in its party.\nIn the wild, the battle ends.
 A move that leaves the foe badly\npoisoned. This poison damage\nworsens every turn.
 The user attacks with\na gust of chilled air.\nIt also lowers the\ntarget’s Speed stat.
-The user bites with\nflame-cloaked fangs.\nIt may also make the\nfoe flinch or sustain\na burn.
+The user bites with flame-cloaked\nfangs. It may also make the\nfoe flinch or sustain a burn.
 The user scatters curious leaves\nthat chase the foe. This attack\nwill not miss.
 A variable move that changes type\nand power depending on the hidden\nability of the Pokémon using it.
 The user burns the foe completely,\nrendering a held Berry useless.
