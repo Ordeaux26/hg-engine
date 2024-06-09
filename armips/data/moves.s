@@ -907,7 +907,7 @@ movedata MOVE_WATER_GUN, "Water Gun"
 movedata MOVE_HYDRO_PUMP, "Hydro Pump"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
-    basepower 120
+    basepower 130
     type TYPE_WATER
     accuracy 85
     pp 5
@@ -955,7 +955,7 @@ movedata MOVE_ICE_BEAM, "Ice Beam"
 movedata MOVE_BLIZZARD, "Blizzard"
     battleeffect MOVE_EFFECT_BLIZZARD
     pss SPLIT_SPECIAL
-    basepower 120
+    basepower 130
     type TYPE_ICE
     accuracy 85
     pp 5
@@ -1403,7 +1403,7 @@ movedata MOVE_THUNDER_WAVE, "Thunder Wave"
 movedata MOVE_THUNDER, "Thunder"
     battleeffect MOVE_EFFECT_THUNDER
     pss SPLIT_SPECIAL
-    basepower 120
+    basepower 130
     type TYPE_ELECTRIC
     accuracy 85
     pp 5
@@ -2027,7 +2027,7 @@ movedata MOVE_BONE_CLUB, "Bone Club"
 movedata MOVE_FIRE_BLAST, "Fire Blast"
     battleeffect MOVE_EFFECT_BURN_HIT
     pss SPLIT_SPECIAL
-    basepower 120
+    basepower 130
     type TYPE_FIRE
     accuracy 85
     pp 5
@@ -3597,7 +3597,7 @@ movedata MOVE_MEGAHORN, "Megahorn"
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_BUG
-    accuracy 90
+    accuracy 95
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -6587,7 +6587,7 @@ movedata MOVE_VACUUM_WAVE, "Vacuum Wave"
 movedata MOVE_FOCUS_BLAST, "Focus Blast"
     battleeffect MOVE_EFFECT_LOWER_SP_DEF_HIT
     pss SPLIT_SPECIAL
-    basepower 120
+    basepower 130
     type TYPE_FIGHTING
     accuracy 85
     pp 5
@@ -7021,7 +7021,7 @@ movedata MOVE_POWER_WHIP, "Power Whip"
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_GRASS
-    accuracy 91
+    accuracy 95
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -8731,9 +8731,9 @@ movedata MOVE_TAIL_SLAP, "Tail Slap"
 movedata MOVE_HURRICANE, "Hurricane"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
-    basepower 120
+    basepower 130
     type TYPE_FLYING
-    accuracy 80
+    accuracy 85
     pp 5
     effectchance 30
     target MOVE_TARGET_SELECTED
@@ -12542,7 +12542,7 @@ movedata MOVE_PYRO_BALL, "Pyro Ball"
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_FIRE
-    accuracy 91
+    accuracy 95
     pp 5
     effectchance 10
     target MOVE_TARGET_SELECTED

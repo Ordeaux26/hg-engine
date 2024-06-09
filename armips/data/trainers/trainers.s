@@ -8641,7 +8641,7 @@ trainerdata 247, "Koga"
         level 100
         pokemon SPECIES_CHANDELURE
         item ITEM_FLAME_PLATE
-        move MOVE_OVERHEAT
+        move MOVE_FIRE_BLAST
         move MOVE_OMINOUS_WIND
         move MOVE_ENERGY_BALL
         move MOVE_FLAME_CHARGE
@@ -24765,7 +24765,7 @@ trainerdata 700, "Giovanni"
         level 100
         monwithform SPECIES_GRENINJA, 2
         item ITEM_WATER_GEM
-        move MOVE_HYDRO_PUMP
+        move MOVE_WATER_PLEDGE
         move MOVE_NIGHT_DAZE
         move MOVE_ICE_BEAM
         move MOVE_WATER_SHURIKEN
@@ -25221,7 +25221,7 @@ trainerdata 703, "Koga"
         level 100
         pokemon SPECIES_CHANDELURE
         item ITEM_FLAME_PLATE
-        move MOVE_OVERHEAT
+        move MOVE_FIRE_BLAST
         move MOVE_OMINOUS_WIND
         move MOVE_ENERGY_BALL
         move MOVE_FLAME_CHARGE

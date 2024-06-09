@@ -12708,7 +12708,7 @@ mondata SPECIES_DARUMAKA, "Darumaka"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_INNER_FOCUS, ABILITY_NONE
+    abilities ABILITY_HUSTLE, ABILITY_INNER_FOCUS
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_DARUMAKA, "When it sleeps, it pulls its limbs into\nits body and its internal fire goes\ndown to 1,100 degrees F."
@@ -12729,7 +12729,7 @@ mondata SPECIES_DARMANITAN, "Darmanitan"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SHEER_FORCE, ABILITY_NONE
+    abilities ABILITY_SHEER_FORCE, ABILITY_ZEN_MODE
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_DARMANITAN, "When weakened in battle, it transforms\ninto a stone statue then sharpens its\nmind and fights mentally."
