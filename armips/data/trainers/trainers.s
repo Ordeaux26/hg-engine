@@ -3237,7 +3237,7 @@ trainerdata 80, "Dirk"
         abilityslot 0
         level 14
         pokemon SPECIES_LUXIO
-        item ITEM_SHUCHA_BERRY
+        item ITEM_SHUCA_BERRY
         move MOVE_THUNDER_FANG
         move MOVE_ICE_FANG
         move MOVE_NUZZLE
