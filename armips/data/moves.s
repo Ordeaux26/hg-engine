@@ -5049,7 +5049,7 @@ movedata MOVE_AIR_CUTTER, "Air Cutter"
     movedescription MOVE_AIR_CUTTER, "The user launches\nrazorlike wind to\nslash the foe.\nIt has a high\ncritical-hit ratio."
 
 movedata MOVE_OVERHEAT, "Overheat"
-    battleeffect MOVE_EFFECT_RECOIL_THIRD
+    battleeffect MOVE_EFFECT_USER_SP_ATK_DOWN_2
     pss SPLIT_SPECIAL
     basepower 130
     type TYPE_FIRE
@@ -7455,7 +7455,7 @@ movedata MOVE_SEED_FLARE, "Seed Flare"
     type TYPE_GRASS
     accuracy 100
     pp 5
-    effectchance 30
+    effectchance 50
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -8973,7 +8973,7 @@ movedata MOVE_V_CREATE, "V-create"
     pss SPLIT_PHYSICAL
     basepower 180
     type TYPE_FIRE
-    accuracy 100
+    accuracy 95
     pp 5
     effectchance 100
     target MOVE_TARGET_SELECTED

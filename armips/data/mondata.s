@@ -8959,7 +8959,7 @@ mondata SPECIES_DRIFLOON, "Drifloon"
 
 
 mondata SPECIES_DRIFBLIM, "Drifblim"
-    basestats 150, 80, 44, 80, 90, 54
+    basestats 140, 90, 44, 80, 90, 54
     types TYPE_GHOST, TYPE_FLYING
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -15742,7 +15742,7 @@ mondata SPECIES_AMAURA, "Amaura"
 
 
 mondata SPECIES_AURORUS, "Aurorus"
-    basestats 123, 77, 72, 58, 99, 92
+    basestats 123, 77, 92, 38, 99, 92
     types TYPE_ROCK, TYPE_ICE
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -16036,7 +16036,7 @@ mondata SPECIES_BERGMITE, "Bergmite"
 
 
 mondata SPECIES_AVALUGG, "Avalugg"
-    basestats 95, 117, 184, 28, 44, 46
+    basestats 90, 117, 184, 28, 34, 66
     types TYPE_ICE, TYPE_ICE
     catchrate 55
     baseexp 0 // defined in baseexp.s
