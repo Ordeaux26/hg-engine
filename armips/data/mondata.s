@@ -15692,7 +15692,7 @@ mondata SPECIES_TYRUNT, "Tyrunt"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
-    abilities ABILITY_STRONG_JAW, ABILITY_NONE
+    abilities ABILITY_STRONG_JAW, ABILITY_BATTLE_ARMOR
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_TYRUNT, "Its immense jaws have enough destructive\nforce to chew up an automobile. It lived\n100 million years ago."
@@ -15713,7 +15713,7 @@ mondata SPECIES_TYRANTRUM, "Tyrantrum"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
-    abilities ABILITY_STRONG_JAW, ABILITY_NONE
+    abilities ABILITY_STRONG_JAW, ABILITY_BATTLE_ARMOR
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_TYRANTRUM, "Nothing could stop this Pokémon 100\nmillion years ago, so it behaved like a\nking."
@@ -15734,7 +15734,7 @@ mondata SPECIES_AMAURA, "Amaura"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
-    abilities ABILITY_REFRIGERATE, ABILITY_NONE
+    abilities ABILITY_REFRIGERATE, ABILITY_SOLID_ROCK
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_AMAURA, "This calm Pokémon lived in a cold land\nwhere there were no violent predators\nlike Tyrantrum."
@@ -15755,7 +15755,7 @@ mondata SPECIES_AURORUS, "Aurorus"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
-    abilities ABILITY_REFRIGERATE, ABILITY_NONE
+    abilities ABILITY_REFRIGERATE, ABILITY_SOLID_ROCK
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_AURORUS, "This usually quiet and kindly Pokémon\nhas a surface temperature of around -240\ndegrees Fahrenheit."
