@@ -4329,18 +4329,18 @@ levelup SPECIES_JUMPLUFF
 levelup SPECIES_AIPOM
     learnset MOVE_SCRATCH, 1
     learnset MOVE_TAIL_WHIP, 1
-    learnset MOVE_SAND_ATTACK, 4
-    learnset MOVE_ASTONISH, 8
-    learnset MOVE_BATON_PASS, 11
-    learnset MOVE_TICKLE, 15
-    learnset MOVE_FURY_SWIPES, 18
-    learnset MOVE_SWIFT, 22
-    learnset MOVE_SCREECH, 25
-    learnset MOVE_AGILITY, 29
-    learnset MOVE_DOUBLE_HIT, 32
-    learnset MOVE_FLING, 36
-    learnset MOVE_NASTY_PLOT, 39
-    learnset MOVE_LAST_RESORT, 43
+    learnset MOVE_ASTONISH, 5
+    learnset MOVE_QUICK_ATTACK, 10
+    learnset MOVE_FURY_SWIPES, 15
+    learnset MOVE_FAKE_OUT, 19
+    learnset MOVE_COVET, 23
+    learnset MOVE_FLING, 27
+    learnset MOVE_DOUBLE_HIT, 31
+    learnset MOVE_BOUNCE, 34
+    learnset MOVE_KNOCK_OFF, 38
+    learnset MOVE_ACROBATICS, 42
+    learnset MOVE_RETURN, 45
+    learnset MOVE_LAST_RESORT, 52
     terminatelearnset
 
 
@@ -9525,23 +9525,25 @@ levelup SPECIES_GASTRODON
 
 
 levelup SPECIES_AMBIPOM
-    learnset MOVE_DUAL_CHOP, 1
     learnset MOVE_SCRATCH, 1
+    learnset MOVE_COUNTER, 1
     learnset MOVE_TAIL_WHIP, 1
-    learnset MOVE_SAND_ATTACK, 1
     learnset MOVE_ASTONISH, 1
-    learnset MOVE_SAND_ATTACK, 4
-    learnset MOVE_ASTONISH, 8
-    learnset MOVE_BATON_PASS, 11
-    learnset MOVE_TICKLE, 15
-    learnset MOVE_FURY_SWIPES, 18
-    learnset MOVE_SWIFT, 22
-    learnset MOVE_SCREECH, 25
-    learnset MOVE_AGILITY, 29
-    learnset MOVE_DOUBLE_HIT, 32
-    learnset MOVE_FLING, 36
-    learnset MOVE_NASTY_PLOT, 39
-    learnset MOVE_LAST_RESORT, 43
+    learnset MOVE_SWITCHEROO, 1
+    learnset MOVE_GUNK_SHOT, 1
+    learnset MOVE_SEED_BOMB, 1
+    learnset MOVE_QUICK_ATTACK, 1
+    learnset MOVE_FURY_SWIPES, 1
+    learnset MOVE_COVET, 1
+    learnset MOVE_FAKE_OUT, 1
+    learnset MOVE_FLING, 1
+    learnset MOVE_DOUBLE_HIT, 31
+    learnset MOVE_BOUNCE, 35
+    learnset MOVE_KNOCK_OFF, 40
+    learnset MOVE_ACROBATICS, 43
+    learnset MOVE_RETURN, 46
+    learnset MOVE_LAST_RESORT, 54
+    learnset MOVE_DUAL_CHOP, 59
     terminatelearnset
 
 
