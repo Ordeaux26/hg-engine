@@ -3268,23 +3268,52 @@ trainerdata 76, "Brooke"
     endparty
 
 trainerdata 77, "Kim"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass CLASS_PICNICKER
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 77
-        // mon 0
         ivs 0
         abilityslot 0
-        level 15
-        pokemon SPECIES_VULPIX
+        level 17
+        pokemon SPECIES_ROSELIA
+        item ITEM_POISON_BARB
+        move MOVE_MEGA_DRAIN
+        move MOVE_VENOSHOCK
+        move MOVE_POISON_POWDER
+        move MOVE_NONE
+        ability ABILITY_POISON_POINT
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_HASTY
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_PAWNIARD
+        item ITEM_EVIOLITE
+        move MOVE_METAL_CLAW
+        move MOVE_FEINT_ATTACK
+        move MOVE_BRICK_BREAK
+        move MOVE_TORMENT
+        ability ABILITY_DEFIANT
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        shinylock 0
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -8537,7 +8566,7 @@ trainerdata 244, "Lance"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_RASH
+        nature NATURE_NAUGHTY
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -8555,7 +8584,7 @@ trainerdata 244, "Lance"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_JOLLY
+        nature NATURE_TIMID
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -8605,7 +8634,7 @@ trainerdata 245, "Will"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_RASH
+        nature NATURE_ADAMANT
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -8641,7 +8670,7 @@ trainerdata 245, "Will"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_GENTLE
+        nature NATURE_CALM
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -8718,7 +8747,7 @@ trainerdata 246, "Karen"
         abilityslot 0
         level 100
         pokemon SPECIES_PALKIA
-        item ITEM_HABAN_BERRY
+        item ITEM_ASSAULT_VEST
         move MOVE_SPACIAL_REND
         move MOVE_OCTAZOOKA
         move MOVE_ANCIENT_POWER
@@ -8737,11 +8766,11 @@ trainerdata 246, "Karen"
         level 100
         pokemon SPECIES_WEAVILE
         item ITEM_FOCUS_SASH
-        move MOVE_KNOCK_OFF
-        move MOVE_ICICLE_CRASH
+        move MOVE_FEINT_ATTACK
+        move MOVE_TRIPLE_AXEL
         move MOVE_FAKE_OUT
         move MOVE_CLOSE_COMBAT
-        ability ABILITY_PRESSURE
+        ability ABILITY_TECHNICIAN
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
@@ -15454,7 +15483,7 @@ trainerdata 418, "Bruno"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_NAIVE
+        nature NATURE_SASSY
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -15472,7 +15501,7 @@ trainerdata 418, "Bruno"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_LAX
+        nature NATURE_IMPISH
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -15499,7 +15528,7 @@ trainerdata 418, "Bruno"
         abilityslot 0
         level 100
         pokemon SPECIES_HEATRAN
-        item ITEM_SHUCA_BERRY
+        item ITEM_AIR_BALLOON
         move MOVE_MAGMA_STORM
         move MOVE_FLASH_CANNON
         move MOVE_EARTH_POWER
@@ -25454,7 +25483,7 @@ trainerdata 701, "Lance"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_RASH
+        nature NATURE_NAUGHTY
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -25472,7 +25501,7 @@ trainerdata 701, "Lance"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_JOLLY
+        nature NATURE_TIMID
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -25522,7 +25551,7 @@ trainerdata 702, "Will"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_RASH
+        nature NATURE_ADAMANT
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -25558,7 +25587,7 @@ trainerdata 702, "Will"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_GENTLE
+        nature NATURE_CALM
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -25803,7 +25832,7 @@ trainerdata 704, "Bruno"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_NAIVE
+        nature NATURE_SASSY
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -25821,7 +25850,7 @@ trainerdata 704, "Bruno"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_LAX
+        nature NATURE_IMPISH
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -25848,7 +25877,7 @@ trainerdata 704, "Bruno"
         abilityslot 0
         level 100
         pokemon SPECIES_HEATRAN
-        item ITEM_SHUCA_BERRY
+        item ITEM_AIR_BALLOON
         move MOVE_MAGMA_STORM
         move MOVE_FLASH_CANNON
         move MOVE_EARTH_POWER
@@ -25880,7 +25909,7 @@ trainerdata 705, "Karen"
         abilityslot 0
         level 100
         pokemon SPECIES_PALKIA
-        item ITEM_HABAN_BERRY
+        item ITEM_ASSAULT_VEST
         move MOVE_SPACIAL_REND
         move MOVE_OCTAZOOKA
         move MOVE_ANCIENT_POWER
@@ -25899,11 +25928,11 @@ trainerdata 705, "Karen"
         level 100
         pokemon SPECIES_WEAVILE
         item ITEM_FOCUS_SASH
-        move MOVE_KNOCK_OFF
-        move MOVE_ICICLE_CRASH
+        move MOVE_FEINT_ATTACK
+        move MOVE_TRIPLE_AXEL
         move MOVE_FAKE_OUT
         move MOVE_CLOSE_COMBAT
-        ability ABILITY_PRESSURE
+        ability ABILITY_TECHNICIAN
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0

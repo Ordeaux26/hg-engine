@@ -6906,7 +6906,7 @@ movedata MOVE_FLASH_CANNON, "Flash Cannon"
     movedescription MOVE_FLASH_CANNON, "The user gathers all\nits light energy and\nreleases it at once.\nIt may also lower the\nfoe’s Sp. Def stat."
 
 movedata MOVE_ROCK_CLIMB, "Rock Climb"
-    battleeffect MOVE_EFFECT_DEF_SPD_DOWN_HIT
+    battleeffect MOVE_EFFECT_DEF_SP_DEF_DOWN_HIT
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_ROCK
