@@ -10619,7 +10619,7 @@ movedata MOVE_SHORE_UP, "Shore Up"
     movedescription MOVE_SHORE_UP, "---"
 
 movedatalongname MOVE_FIRST_IMPRESSION, "FirstImpression", "First Impression"
-    battleeffect MOVE_EFFECT_ALWAYS_FLINCH_FIRST_TURN_ONLY
+    battleeffect MOVE_EFFECT_FIRST_IMPRESSION
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_BUG

@@ -14720,26 +14720,24 @@ levelup SPECIES_HEATMOR
 
 
 levelup SPECIES_DURANT
-    learnset MOVE_FURY_CUTTER, 1
-    learnset MOVE_SAND_ATTACK, 1
-    learnset MOVE_METAL_SOUND, 1
-    learnset MOVE_GUILLOTINE, 1
     learnset MOVE_VICE_GRIP, 1
-    learnset MOVE_BITE, 1
-    learnset MOVE_VICE_GRIP, 4
-    learnset MOVE_METAL_CLAW, 9
-    learnset MOVE_BEAT_UP, 12
-    learnset MOVE_AGILITY, 15
-    learnset MOVE_BUG_BITE, 16
-    learnset MOVE_BITE, 20
-    learnset MOVE_DIG, 29
-    learnset MOVE_CRUNCH, 29
-    learnset MOVE_IRON_HEAD, 35
-    learnset MOVE_X_SCISSOR, 36
-    learnset MOVE_ENTRAINMENT, 42
-    learnset MOVE_METAL_SOUND, 47
-    learnset MOVE_IRON_DEFENSE, 49
-    learnset MOVE_GUILLOTINE, 53
+    learnset MOVE_METAL_CLAW, 1
+    learnset MOVE_INFESTATION, 1
+    learnset MOVE_BITE, 7
+    learnset MOVE_BUG_BITE, 11
+    learnset MOVE_DIG, 16
+    learnset MOVE_ROCK_TOMB, 19
+    learnset MOVE_SKITTER_SMACK, 24
+    learnset MOVE_STOMPING_TANTRUM, 27
+    learnset MOVE_CRUNCH, 31
+    learnset MOVE_SMART_STRIKE, 35
+    learnset MOVE_LEECH_LIFE, 39
+    learnset MOVE_IRON_HEAD, 43
+    learnset MOVE_X_SCISSOR, 46
+    learnset MOVE_RETURN, 53
+    learnset MOVE_FIRST_IMPRESSION, 57
+    learnset MOVE_SUPERPOWER, 66
+    learnset MOVE_GUILLOTINE, 70
     terminatelearnset
 
 

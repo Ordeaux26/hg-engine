@@ -7720,7 +7720,7 @@ evodata SPECIES_AMOONGUSS
     terminateevodata
 
 evodata SPECIES_FRILLISH
-    evolutionwithform EVO_LEVEL_MALE, 42, SPECIES_JELLICENT, 0
+    evolutionwithform EVO_LEVEL_MALE, 40, SPECIES_JELLICENT, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
