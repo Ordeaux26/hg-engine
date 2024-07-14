@@ -1164,7 +1164,7 @@ movedata MOVE_ABSORB, "Absorb"
 movedata MOVE_MEGA_DRAIN, "Mega Drain"
     battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
     pss SPLIT_SPECIAL
-    basepower 40
+    basepower 55
     type TYPE_GRASS
     accuracy 100
     pp 15
@@ -3148,7 +3148,7 @@ movedata MOVE_PERISH_SONG, "Perish Song"
 movedata MOVE_ICY_WIND, "Icy Wind"
     battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
     pss SPLIT_SPECIAL
-    basepower 55
+    basepower 60
     type TYPE_ICE
     accuracy 100
     pp 15
@@ -8492,7 +8492,7 @@ movedata MOVE_WORK_UP, "Work Up"
 movedata MOVE_ELECTROWEB, "Electroweb"
     battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
     pss SPLIT_SPECIAL
-    basepower 55
+    basepower 60
     type TYPE_ELECTRIC
     accuracy 100
     pp 15

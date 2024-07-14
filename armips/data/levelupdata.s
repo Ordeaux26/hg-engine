@@ -9377,21 +9377,27 @@ levelup SPECIES_VESPIQUEN
 
 
 levelup SPECIES_PACHIRISU
-    learnset MOVE_GROWL, 1
-    learnset MOVE_BIDE, 1
+    learnset MOVE_BABY_DOLL_EYES, 1
+    learnset MOVE_THUNDER_SHOCK, 1
     learnset MOVE_QUICK_ATTACK, 5
-    learnset MOVE_CHARM, 9
-    learnset MOVE_SPARK, 13
-    learnset MOVE_ENDURE, 17
-    learnset MOVE_NUZZLE, 19
-    learnset MOVE_SWIFT, 21
-    learnset MOVE_ELECTRO_BALL, 25
-    learnset MOVE_SWEET_KISS, 29
-    learnset MOVE_THUNDER_WAVE, 33
-    learnset MOVE_SUPER_FANG, 37
-    learnset MOVE_DISCHARGE, 41
-    learnset MOVE_LAST_RESORT, 45
-    learnset MOVE_HYPER_FANG, 49
+    learnset MOVE_FAKE_OUT, 10
+    learnset MOVE_CHARM, 13
+    learnset MOVE_SPARK, 17
+    learnset MOVE_NUZZLE, 20
+    learnset MOVE_SUPER_FANG, 22
+    learnset MOVE_COVET, 25
+    learnset MOVE_HYPER_FANG, 27
+    learnset MOVE_THUNDER_PUNCH, 29
+    learnset MOVE_WILD_CHARGE, 33
+    learnset MOVE_THUNDERBOLT, 33
+    learnset MOVE_VOLT_SWITCH, 37
+    learnset MOVE_ELECTROWEB, 39
+    learnset MOVE_FOLLOW_ME, 42
+    learnset MOVE_THUNDER, 47
+    learnset MOVE_LAST_RESORT, 53
+    learnset MOVE_SEED_BOMB, 55
+    learnset MOVE_SEED_BOMB, 59
+    learnset MOVE_ENCORE, 62
     terminatelearnset
 
 
