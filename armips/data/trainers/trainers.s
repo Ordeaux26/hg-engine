@@ -1274,7 +1274,7 @@ trainerdata 30, "Whitney"
         move MOVE_PSYCHIC
         move MOVE_DRAINING_KISS
         move MOVE_DESTINY_BOND
-        move MOVE_NONE
+        move MOVE_DISABLE
         ability ABILITY_TRACE
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
@@ -1434,9 +1434,9 @@ trainerdata 32, "Pryce"
     endparty
 
 trainerdata 33, "Jasmine"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass CLASS_LEADER_2
-    nummons 3
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1446,40 +1446,112 @@ trainerdata 33, "Jasmine"
     endentry
 
     party 33
-        // mon 0
-        ivs 150
+        ivs 0
         abilityslot 0
-        level 30
-        pokemon SPECIES_MAGNEMITE
-        item ITEM_NONE
-        move MOVE_THUNDERBOLT
-        move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
-        move MOVE_THUNDER_WAVE
+        level 43
+        pokemon SPECIES_BASTIDON
+        item ITEM_CUSTAP_BERRY
+        move MOVE_STEALTH_ROCK
+        move MOVE_SPIKES
+        move MOVE_METAL_BURST
+        move MOVE_HEAVY_SLAM
+        ability ABILITY_STURDY
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_SASSY
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 1
-        ivs 150
-        abilityslot 32
-        level 30
-        pokemon SPECIES_MAGNEMITE
-        item ITEM_NONE
-        move MOVE_THUNDERBOLT
-        move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
-        move MOVE_THUNDER_WAVE
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_CARBINK
+        item ITEM_BABIRI_BERRY
+        move MOVE_ANCIENT_POWER
+        move MOVE_MOONBLAST
+        move MOVE_IRON_HEAD
+        move MOVE_ROCK_POLISH
+        ability ABILITY_STURDY
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BASHFUL
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 2
-        ivs 150
-        abilityslot 32
-        level 35
-        pokemon SPECIES_STEELIX
-        item ITEM_SITRUS_BERRY
-        move MOVE_SCREECH
-        move MOVE_SANDSTORM
-        move MOVE_ROCK_THROW
-        move MOVE_IRON_TAIL
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_PHIONE
+        item ITEM_LUM_BERRY
+        move MOVE_SURF
+        move MOVE_ICE_BEAM
+        move MOVE_HIDDEN_POWER
+        move MOVE_TAIL_GLOW
+        ability ABILITY_STURDY
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 30
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_LAX
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_KLINKLANG
+        item ITEM_LEFTOVERS
+        move MOVE_STEEL_BEAM
+        move MOVE_ZAP_CANNON
+        move MOVE_POWER_GEM
+        move MOVE_SHIFT_GEAR
+        ability ABILITY_SOUL_HEART
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_MODEST
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_LUCARIO
+        item ITEM_EXPERT_BELT
+        move MOVE_AURA_SPHERE
+        move MOVE_METEOR_MASH
+        move MOVE_DRAGON_PULSE
+        move MOVE_ICE_PUNCH
+        ability ABILITY_INNER_FOCUS
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_NAIVE
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_EXCADRILL
+        item ITEM_STEEL_GEM
+        move MOVE_EARTHQUAKE
+        move MOVE_IRON_HEAD
+        move MOVE_X_SCISSOR
+        move MOVE_FISSURE
+        ability ABILITY_MOLD_BREAKER
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_IMPISH
+        shinylock 0
+        additionalflags 0
         ballseal 0
     endparty
 

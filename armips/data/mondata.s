@@ -13686,7 +13686,7 @@ mondata SPECIES_KLANG, "Klang"
 
 
 mondata SPECIES_KLINKLANG, "Klinklang"
-    basestats 60, 100, 115, 90, 70, 85
+    basestats 60, 90, 115, 90, 80, 85
     types TYPE_STEEL, TYPE_STEEL
     catchrate 30
     baseexp 0 // defined in baseexp.s
