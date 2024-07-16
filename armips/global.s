@@ -21,6 +21,7 @@
 .include "armips/asm/martitems.s" // changing the mart items
 .include "armips/asm/hms.s" // allow the use of Surf and Waterfall without needing the move on a mon
 .include "armips/asm/hp_bar_speed.s" // increases HP bar speed
+.include "armips/asm/swarms.s" // modify swarms
 
 .include "armips/data/starters.s" // data definitions for which species to use for the starter Pokemon
 
