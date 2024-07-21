@@ -9361,6 +9361,7 @@ levelup SPECIES_VESPIQUEN
     learnset MOVE_SPIKES, 1
     learnset MOVE_AROMATHERAPY, 1
     learnset MOVE_SWEET_SCENT, 1
+    learnset MOVE_DEFOG, 1
     learnset MOVE_GUST, 1
     learnset MOVE_STRUGGLE_BUG, 1
     learnset MOVE_BUG_BITE, 1
@@ -10574,6 +10575,7 @@ levelup SPECIES_TOGEKISS
     learnset MOVE_CHARM, 1
     learnset MOVE_PRESENT, 1
     learnset MOVE_LIFE_DEW, 1
+    learnset MOVE_DEFOG, 1
     learnset MOVE_ROUND, 1
     learnset MOVE_DOUBLE_EDGE, 1
     learnset MOVE_PSYCHO_SHIFT, 1
@@ -14445,8 +14447,8 @@ levelup SPECIES_MIENSHAO
     learnset MOVE_BOUNCE, 1
     learnset MOVE_VITAL_THROW, 1
     learnset MOVE_DRAIN_PUNCH, 1
-    learnset MOVE_FLING, 34
-    learnset MOVE_JUMP_KICK, 35
+    learnset MOVE_JUMP_KICK, 34
+    learnset MOVE_FLING, 35
     learnset MOVE_ACROBATICS, 38
     learnset MOVE_KNOCK_OFF, 43
     learnset MOVE_AURA_SPHERE, 46
@@ -15283,7 +15285,7 @@ levelup SPECIES_FROAKIE
     learnset MOVE_LICK, 11
     learnset MOVE_WATER_PULSE, 15
     learnset MOVE_ICY_WIND, 18
-    learnset MOVE_FEINT_ATTACK, 22
+    learnset MOVE_FEINT_ATTACK, 21
     learnset MOVE_SMACK_DOWN, 24
     learnset MOVE_WATERFALL, 27
     learnset MOVE_ICE_PUNCH, 35

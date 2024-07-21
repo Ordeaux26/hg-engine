@@ -1268,7 +1268,7 @@ trainerdata 30, "Whitney"
 
         ivs 0
         abilityslot 0
-        level 20
+        level 21
         pokemon SPECIES_KIRLIA
         item ITEM_ORAN_BERRY
         move MOVE_PSYCHIC
@@ -1322,9 +1322,9 @@ trainerdata 30, "Whitney"
     endparty
 
 trainerdata 31, "Morty"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass CLASS_LEADER_0
-    nummons 4
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1334,52 +1334,112 @@ trainerdata 31, "Morty"
     endentry
 
     party 31
-        // mon 0
-        ivs 100
+        ivs 0
         abilityslot 0
-        level 21
-        pokemon SPECIES_GASTLY
-        item ITEM_NONE
-        move MOVE_LICK
-        move MOVE_SPITE
-        move MOVE_MEAN_LOOK
-        move MOVE_CURSE
+        level 37
+        pokemon SPECIES_DUSCLOPS
+        item ITEM_EVIOLITE
+        move MOVE_SHADOW_PUNCH
+        move MOVE_SHADOW_SNEAK
+        move MOVE_BRICK_BREAK
+        move MOVE_WILL_O_WISP
+        ability ABILITY_PRESSURE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_QUIET
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 1
-        ivs 100
+        ivs 0
         abilityslot 0
-        level 21
-        pokemon SPECIES_HAUNTER
-        item ITEM_NONE
-        move MOVE_HYPNOSIS
-        move MOVE_DREAM_EATER
-        move MOVE_CURSE
-        move MOVE_NIGHTMARE
+        level 38
+        pokemon SPECIES_MALAMAR
+        item ITEM_CONTRARY
+        move MOVE_PSYCHO_CUT
+        move MOVE_HAMMER_ARM
+        move MOVE_REVERSAL
+        move MOVE_DESTINY_BOND
+        ability ABILITY_CONTRARY
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_JOLLY
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 2
-        ivs 100
+        ivs 0
         abilityslot 0
-        level 25
-        pokemon SPECIES_GENGAR
-        item ITEM_SITRUS_BERRY
-        move MOVE_HYPNOSIS
+        level 38
+        pokemon SPECIES_ROTOM
+        item ITEM_WIDE_LENS
+        move MOVE_SHOCK_WAVE
+        move MOVE_HEX
+        move MOVE_PROTECT
+        move MOVE_WILL_O_WISP
+        ability ABILITY_LEVITATE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_MODEST
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_ROSERADE
+        item ITEM_EXPERT_BELT
+        move MOVE_MEGA_DRAIN
+        move MOVE_VENOSHOCK
         move MOVE_SHADOW_BALL
-        move MOVE_MEAN_LOOK
-        move MOVE_SUCKER_PUNCH
+        move MOVE_TOXIC
+        ability ABILITY_TECHNICIAN
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_LONELY
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 3
-        ivs 100
+        ivs 0
         abilityslot 0
-        level 23
-        pokemon SPECIES_HAUNTER
-        item ITEM_NONE
+        level 39
+        pokemon SPECIES_COFAGRIGUS
+        item ITEM_LEFTOVERS
+        move MOVE_SHADOW_BALL
+        move MOVE_DARK_PULSE
         move MOVE_CURSE
-        move MOVE_MEAN_LOOK
-        move MOVE_SUCKER_PUNCH
-        move MOVE_NIGHT_SHADE
+        move MOVE_REST
+        ability ABILITY_MUMMY
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BOLD
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_MISMAGIUS
+        item ITEM_SPELL_TAG
+        move MOVE_SHADOW_BALL
+        move MOVE_MYSTICAL_FIRE
+        move MOVE_THUNDER_WAVE
+        move MOVE_WILL_O_WISP
+        ability ABILITY_LEVITATE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BASHFUL
+        shinylock 0
+        additionalflags 0
         ballseal 0
     endparty
 

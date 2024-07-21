@@ -912,11 +912,11 @@ encounter SPECIES_NOSEPASS, 10, 10
 encounter SPECIES_BINACLE, 10, 10
 
 // old rod encounters
-encounter SPECIES_MANTYKE, 7, 7
+encounter SPECIES_DUCKLETT, 7, 7
 encounter SPECIES_BASCULIN, 7, 7
-encounter SPECIES_MANTYKE, 7, 7
-encounter SPECIES_MANTYKE, 7, 7
-encounter SPECIES_MANTYKE, 7, 7
+encounter SPECIES_DUCKLETT, 7, 7
+encounter SPECIES_DUCKLETT, 7, 7
+encounter SPECIES_DUCKLETT, 7, 7
 
 // good rod encounters
 encounter SPECIES_SEISMITOAD, 38, 38
@@ -2625,11 +2625,11 @@ pokemon SPECIES_BLITZLE
 pokemon SPECIES_SHINX
 pokemon SPECIES_ELEKID
 pokemon SPECIES_ELEKID
-pokemon SPECIES_GLAMEOW
-pokemon SPECIES_GLAMEOW
 pokemon SPECIES_PACHIRISU
+pokemon SPECIES_PACHIRISU
+pokemon SPECIES_GLAMEOW
 pokemon SPECIES_JOLTIK
-pokemon SPECIES_PACHIRISU
+pokemon SPECIES_GLAMEOW
 pokemon SPECIES_MAGNEMITE
 
 // day encounter slots
