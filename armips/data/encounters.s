@@ -2093,101 +2093,101 @@ encounterdata  20   // Ilex Forest
 walkrate 5
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 5, 6, 5, 6, 6, 6, 5, 5, 5, 6, 5, 6
+oldrodrate 100
+goodrodrate 100
+superrodrate 100
+walklevels 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13
 
 // morning encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PARAS
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
+pokemon SPECIES_COMBEE
+pokemon SPECIES_KRICKETOT
+pokemon SPECIES_COMBEE
+pokemon SPECIES_KRICKETOT
+pokemon SPECIES_SEWADDLE
+pokemon SPECIES_SEWADDLE
+pokemon SPECIES_BURMY
+pokemon SPECIES_BURMY
+pokemon SPECIES_SCATTERBUG
+pokemon SPECIES_SCATTERBUG
+pokemon SPECIES_SCATTERBUG
+pokemon SPECIES_JOLTIK
 
 // day encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
+pokemon SPECIES_KRICKETOT
+pokemon SPECIES_YANMA
+pokemon SPECIES_KRICKETOT
+pokemon SPECIES_YANMA
+pokemon SPECIES_SKORUPI
+pokemon SPECIES_SKORUPI
+pokemon SPECIES_BURMY
+pokemon SPECIES_BURMY
+pokemon SPECIES_COMBEE
+pokemon SPECIES_SEWADDLE
+pokemon SPECIES_COMBEE
+pokemon SPECIES_DWEBBLE
 
 // night encounter slots
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
+pokemon SPECIES_SKORUPI
+pokemon SPECIES_YANMA
+pokemon SPECIES_SKORUPI
+pokemon SPECIES_YANMA
+pokemon SPECIES_COMBEE
+pokemon SPECIES_COMBEE
+pokemon SPECIES_SEWADDLE
+pokemon SPECIES_SEWADDLE
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_JOLTIK
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_JOLTIK
 
 // hoenn encounter slots
-pokemon SPECIES_SPOINK
-pokemon SPECIES_NUMEL
+pokemon SPECIES_NONE
+pokemon SPECIES_NONE
 
 // sinnoh encounter slots
-pokemon SPECIES_BUDEW
-pokemon SPECIES_CARNIVINE
+pokemon SPECIES_NONE
+pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 10, 20
-encounter SPECIES_PSYDUCK, 5, 15
-encounter SPECIES_GOLDUCK, 10, 20
-encounter SPECIES_GOLDUCK, 10, 20
-encounter SPECIES_GOLDUCK, 10, 20
+encounter SPECIES_FLOATZEL, 35, 35
+encounter SPECIES_FRILLISH, 35, 35
+encounter SPECIES_FRILLISH, 35, 35
+encounter SPECIES_GRENINJA, 35, 35
+encounter SPECIES_GRENINJA, 35, 35
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_DUCKLETT, 7, 7
+encounter SPECIES_BINACLE, 7, 7
+encounter SPECIES_DUCKLETT, 7, 7
+encounter SPECIES_DUCKLETT, 7, 7
+encounter SPECIES_DUCKLETT, 7, 7
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_BARBARACLE, 38, 38
+encounter SPECIES_BARBARACLE, 38, 38
+encounter SPECIES_BARBARACLE, 38, 38
+encounter SPECIES_BARBARACLE, 38, 38
+encounter SPECIES_BARBARACLE, 38, 38
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_PIPLUP, 40, 40
+encounter SPECIES_PIPLUP, 40, 40
+encounter SPECIES_PIPLUP, 40, 40
+encounter SPECIES_PIPLUP, 40, 40
+encounter SPECIES_PIPLUP, 40, 40
 
 // swarm grass
-pokemon SPECIES_CATERPIE
+pokemon SPECIES_NONE
 // swarm surf
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_NONE
 // swarm good rod
-pokemon SPECIES_POLIWAG
+pokemon SPECIES_NONE
 // swarm super rod
-pokemon SPECIES_MAGIKARP
+pokemon SPECIES_NONE
 
 .close
 

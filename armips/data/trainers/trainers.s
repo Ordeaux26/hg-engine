@@ -3080,37 +3080,52 @@ trainerdata 70, "Samantha"
     endparty
 
 trainerdata 71, "Cathy"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass CLASS_LASS
-    nummons 3
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 71
-        // mon 0
-        ivs 10
+        ivs 0
         abilityslot 0
-        level 15
-        pokemon SPECIES_JIGGLYPUFF
+        level 21
+        pokemon SPECIES_EEVEE
+        item ITEM_LUM_BERRY
+        move MOVE_SECRET_POWER
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ability ABILITY_ADAPTABILITY
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_DOCILE
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 1
-        ivs 10
+        ivs 0
         abilityslot 0
-        level 15
-        pokemon SPECIES_JIGGLYPUFF
-        ballseal 0
-
-        // mon 2
-        ivs 10
-        abilityslot 0
-        level 15
-        pokemon SPECIES_JIGGLYPUFF
+        level 20
+        pokemon SPECIES_PORYGON
+        item ITEM_LUM_BERRY
+        move MOVE_SHOCK_WAVE
+        move MOVE_PSYBEAM
+        move MOVE_ICY_WIND
+        move MOVE_NONE
+        ability ABILITY_TRACE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_TIMID
+        shinylock 0
+        additionalflags 0
         ballseal 0
     endparty
 
