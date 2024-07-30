@@ -263,7 +263,6 @@ trainerdata 5, "Victoria"
         shinylock 0
         additionalflags 0
         ballseal 0
-        ballseal 0
     endparty
 
 trainerdata 6, "Keith"
@@ -1397,7 +1396,7 @@ trainerdata 31, "Morty"
         abilityslot 0
         level 38
         pokemon SPECIES_MALAMAR
-        item ITEM_CONTRARY
+        item ITEM_FOCUS_SASH
         move MOVE_PSYCHO_CUT
         move MOVE_HAMMER_ARM
         move MOVE_REVERSAL
@@ -1550,7 +1549,7 @@ trainerdata 33, "Jasmine"
         ivs 0
         abilityslot 0
         level 43
-        pokemon SPECIES_BASTIDON
+        pokemon SPECIES_BASTIODON
         item ITEM_CUSTAP_BERRY
         move MOVE_STEALTH_ROCK
         move MOVE_SPIKES
@@ -6749,44 +6748,174 @@ trainerdata 180, "Mickey"
     endparty
 
 trainerdata 181, "William"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass CLASS_POKEFAN_M
-    nummons 1
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 181
-        // mon 0
         ivs 0
         abilityslot 0
-        level 16
-        pokemon SPECIES_RAICHU
+        level 24
+        pokemon SPECIES_ELEKID
+        item ITEM_MAGNET
+        move MOVE_THUNDER_PUNCH
+        move MOVE_ICE_PUNCH
+        move MOVE_FIRE_PUNCH
+        move MOVE_NONE
+        ability ABILITY_STATIC
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_BUIZEL
+        item ITEM_LIFE_ORB
+        move MOVE_WATER_PULSE
+        move MOVE_DOUBLE_HIT
+        move MOVE_FAKE_OUT
+        move MOVE_NONE
+        ability ABILITY_NATURAL_CURE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_QUIRKY
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_MIMEJR
+        item ITEM_EVIOLITE
+        move MOVE_PSYBEAM
+        move MOVE_FAIRY_WIND
+        move MOVE_COPYCAT
+        move MOVE_PROTECT
+        ability ABILITY_SOUNDPROOF
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BOLD
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 24
+        pokemon SPECIES_SNOVER
+        item ITEM_LEFTOVERS
+        move MOVE_BULLET_SEED
+        move MOVE_AVALANCHE
+        move MOVE_ICE_SHARD
+        move MOVE_NONE
+        ability ABILITY_NATURAL_CURE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_IMPISH
+        shinylock 0
+        additionalflags 0
         ballseal 0
     endparty
 
 trainerdata 182, "Beverly"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass CLASS_POKEFAN_F
-    nummons 1
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 182
-        // mon 0
         ivs 0
         abilityslot 0
-        level 16
-        pokemon SPECIES_SNUBBULL
+        level 23
+        pokemon SPECIES_PALPITOAD
+        item ITEM_SOFT_SAND
+        move MOVE_BUBBLE_BEAM
+        move MOVE_MUD_SHOT
+        move MOVE_ACID
+        move MOVE_NONE
+        ability ABILITY_WATER_ABSORB
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_QUIET
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 24
+        pokemon SPECIES_TRUBBISH
+        item ITEM_POISON_BARB
+        move MOVE_POISON_JAB
+        move MOVE_ROCK_BLAST
+        move MOVE_TAKE_DOWN
+        move MOVE_TOXIC_SPIKES
+        ability ABILITY_STICKY_HOLD
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_DOCILE
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 24
+        pokemon SPECIES_PANCHAM
+        item ITEM_BLACK_BELT
+        move MOVE_DRAIN_PUNCH
+        move MOVE_CRUNCH
+        move MOVE_THUNDER_PUNCH
+        move MOVE_NONE
+        ability ABILITY_IRON_FIST
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_NAUGHTY
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 24
+        pokemon SPECIES_CUBCHOO
+        item ITEM_MUSCLE_BAND
+        move MOVE_ICE_PUNCH
+        move MOVE_COVET
+        move MOVE_LIQUIDATION
+        move MOVE_NONE
+        ability ABILITY_RATTLED
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_JOLLY
+        shinylock 0
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -9098,7 +9227,7 @@ trainerdata 247, "Koga"
         ball ITEM_MASTER_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_IMPISH
+        nature NATURE_MILD
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -25893,7 +26022,7 @@ trainerdata 703, "Koga"
         ball ITEM_MASTER_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_IMPISH
+        nature NATURE_MILD
         shinylock 0
         additionalflags 0
         ballseal 0
