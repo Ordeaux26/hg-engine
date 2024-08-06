@@ -211,7 +211,7 @@ movedata MOVE_GUILLOTINE, "Guillotine"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x09
     contesttype CONTEST_COOL
     terminatedata
@@ -531,7 +531,7 @@ movedata MOVE_HORN_DRILL, "Horn Drill"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x09
     contesttype CONTEST_COOL
     terminatedata
@@ -668,10 +668,10 @@ movedata MOVE_POISON_STING, "Poison Sting"
 movedata MOVE_TWINEEDLE, "Twineedle"
     battleeffect MOVE_EFFECT_POISON_MULTI_HIT
     pss SPLIT_PHYSICAL
-    basepower 25
+    basepower 35
     type TYPE_BUG
     accuracy 100
-    pp 20
+    pp 15
     effectchance 20
     target MOVE_TARGET_SELECTED
     priority 0
@@ -1459,7 +1459,7 @@ movedata MOVE_FISSURE, "Fissure"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT
+    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0x09
     contesttype CONTEST_TOUGH
     terminatedata
@@ -5283,7 +5283,7 @@ movedata MOVE_SHEER_COLD, "Sheer Cold"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0x09
     contesttype CONTEST_BEAUTY
     terminatedata
@@ -5906,7 +5906,7 @@ movedata MOVE_METAL_BURST, "Metal Burst"
     pp 10
     effectchance 0
     target MOVE_TARGET_DEPENDS
-    priority 0
+    priority -5
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE
     appeal 0x0F
     contesttype CONTEST_BEAUTY
@@ -10875,12 +10875,12 @@ movedata MOVE_THROAT_CHOP, "Throat Chop"
     movedescription MOVE_THROAT_CHOP, "---"
 
 movedata MOVE_POLLEN_PUFF, "Pollen Puff"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_RECHARGE_AFTER
     pss SPLIT_SPECIAL
-    basepower 90
+    basepower 150
     type TYPE_BUG
     accuracy 100
-    pp 15
+    pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0

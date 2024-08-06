@@ -9374,6 +9374,7 @@ levelup SPECIES_VESPIQUEN
     learnset MOVE_DUAL_WINGBEAT, 45
     learnset MOVE_SLUDGE_BOMB, 48
     learnset MOVE_HURRICANE, 53
+    learnset MOVE_POLLEN_PUFF, 60
     terminatelearnset
 
 
@@ -10585,6 +10586,7 @@ levelup SPECIES_YANMEGA
     learnset MOVE_QUICK_ATTACK, 1
     learnset MOVE_STRUGGLE_BUG, 1
     learnset MOVE_BUG_BITE, 1
+    learnset MOVE_POLLEN_PUFF, 1
     learnset MOVE_SONIC_BOOM, 1
     learnset MOVE_AIR_CUTTER, 1
     learnset MOVE_SUPERSONIC, 1
@@ -13720,6 +13722,7 @@ levelup SPECIES_ESCAVALIER
     learnset MOVE_FURY_CUTTER, 1
     learnset MOVE_ACID_SPRAY, 1
     learnset MOVE_BUG_BITE, 1
+    learnset MOVE_NIGHT_SLASH, 1
     learnset MOVE_PROTECT, 1
     learnset MOVE_QUICK_GUARD, 1
     learnset MOVE_COUNTER, 1
@@ -13728,7 +13731,7 @@ levelup SPECIES_ESCAVALIER
     learnset MOVE_HORN_DRILL, 1
     learnset MOVE_GUILLOTINE, 1
     learnset MOVE_KNOCK_OFF, 40
-    learnset MOVE_LEECH_LIFE, 50
+    learnset MOVE_TWINEEDLE, 50
     learnset MOVE_SMART_STRIKE, 54
     learnset MOVE_DRILL_RUN, 55
     learnset MOVE_DOUBLE_EDGE, 58
@@ -14355,6 +14358,7 @@ levelup SPECIES_ACCELGOR
     learnset MOVE_ACID_SPRAY, 1
     learnset MOVE_WATER_SHURIKEN, 1
     learnset MOVE_FINAL_GAMBIT, 1
+    learnset MOVE_POLLEN_PUFF, 1
     learnset MOVE_SLUDGE_WAVE, 1
     learnset MOVE_ENDURE, 40
     learnset MOVE_SIGNAL_BEAM, 50

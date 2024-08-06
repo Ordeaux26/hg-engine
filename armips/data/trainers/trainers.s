@@ -8869,13 +8869,13 @@ trainerdata 244, "Lance"
         ivs 0
         abilityslot 0
         level 100
-        pokemon SPECIES_HAXORUS
+        pokemon SPECIES_TORTERRA
         item ITEM_SITRUS_BERRY
-        move MOVE_DRAGON_RUSH
         move MOVE_EARTHQUAKE
-        move MOVE_DRAGON_DANCE
-        move MOVE_SUBSTITUTE
-        ability ABILITY_MOLD_BREAKER
+        move MOVE_WOOD_HAMMER
+        move MOVE_ROCK_CLIMB
+        move MOVE_ROCK_POLISH
+        ability ABILITY_THICK_FAT
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
@@ -8956,7 +8956,7 @@ trainerdata 245, "Will"
         abilityslot 0
         level 100
         pokemon SPECIES_DELPHOX
-        item ITEM_LEFTOVERS
+        item ITEM_LIFE_ORB
         move MOVE_MIND_BLOWN
         move MOVE_PSYCHIC
         move MOVE_DAZZLING_GLEAM
@@ -9028,11 +9028,11 @@ trainerdata 245, "Will"
         abilityslot 0
         level 100
         pokemon SPECIES_VICTINI
-        item ITEM_CHOICE_SCARF
+        item ITEM_WHITE_HERB
         move MOVE_V_CREATE
-        move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
+        move MOVE_BOLT_STRIKE
+        move MOVE_PSYCHO_BOOST
+        move MOVE_SUNNY_DAY
         ability ABILITY_VICTORY_STAR
         ball ITEM_MASTER_BALL
         setivs 31, 31, 31, 31, 31, 31
@@ -18036,9 +18036,9 @@ trainerdata 484, "Gerardo"
     endparty
 
 trainerdata 485, "Archer"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass CLASS_EXECUTIVE_0
-    nummons 3
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -18048,37 +18048,112 @@ trainerdata 485, "Archer"
     endentry
 
     party 485
-        // mon 0
-        ivs 200
+        ivs 0
         abilityslot 0
-        level 35
-        pokemon SPECIES_HOUNDOUR
-        move MOVE_FIRE_FANG
-        move MOVE_ROAR
-        move MOVE_BITE
-        move MOVE_FEINT_ATTACK
+        level 66
+        pokemon SPECIES_MAMOSWINE
+        item ITEM_FOCUS_SASH
+        move MOVE_ICICLE_CRASH
+        move MOVE_ICE_SHARD
+        move MOVE_EARTHQUAKE
+        move MOVE_STEALTH_ROCK
+        ability ABILITY_THICK_FAT
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 1
-        ivs 200
+        ivs 0
         abilityslot 0
-        level 35
-        pokemon SPECIES_KOFFING
-        move MOVE_TACKLE
-        move MOVE_SLUDGE
-        move MOVE_SMOKESCREEN
-        move MOVE_HAZE
+        level 66
+        pokemon SPECIES_GRENINJA
+        item ITEM_LIFE_ORB
+        move MOVE_SCALD
+        move MOVE_DARK_PULSE
+        move MOVE_ICE_BEAM
+        move MOVE_WATER_SHURIKEN
+        ability ABILITY_PROTEAN
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_MILD
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 2
-        ivs 200
+        ivs 0
         abilityslot 0
-        level 38
-        pokemon SPECIES_HOUNDOOM
+        level 66
+        pokemon SPECIES_EELEKTROSS
+        item ITEM_FOCUS_BAND
+        move MOVE_WILD_CHARGE
+        move MOVE_CRUNCH
+        move MOVE_ICE_FANG
+        move MOVE_SUBSTITUTE
+        ability ABILITY_LEVITATE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_NAUGHTY
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 65
+        pokemon SPECIES_TYRANTRUM
+        item ITEM_QUICK_CLAW
+        move MOVE_HEAD_SMASH
+        move MOVE_DRAGON_CLAW
         move MOVE_FIRE_FANG
-        move MOVE_SMOG
-        move MOVE_BITE
-        move MOVE_FEINT_ATTACK
+        move MOVE_DRAGON_DANCE
+        ability ABILITY_TOUGH_CLAWS
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_JOLLY
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 66
+        pokemon SPECIES_AEGISLASH
+        item ITEM_LEFTOVERS
+        move MOVE_SHADOW_CLAW
+        move MOVE_IRON_HEAD
+        move MOVE_SACRED_SWORD
+        move MOVE_KINGS_SHIELD
+        ability ABILITY_STANCE_CHANGE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_NAIVE
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 67
+        pokemon SPECIES_DARMANITAN
+        item ITEM_CHOICE_BAND
+        move MOVE_V_CREATE
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ability ABILITY_GORILLA_TACTICS
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_DOCILE
+        shinylock 0
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -25646,12 +25721,12 @@ trainerdata 700, "Giovanni"
         ivs 0
         abilityslot 0
         level 100
-        pokemon SPECIES_RESHIRAM
+        monwithform SPECIES_KYUREM, 1
         item ITEM_CHOICE_SPECS
+        move MOVE_SHEER_COLD
         move MOVE_BLUE_FLARE
-        move MOVE_DRACO_METEOR
-        move MOVE_ANCIENT_POWER
-        move MOVE_AURA_SPHERE
+        move MOVE_NONE
+        move MOVE_NONE
         ability ABILITY_TURBOBLAZE
         ball ITEM_MASTER_BALL
         setivs 31, 31, 31, 31, 31, 31
@@ -25674,7 +25749,7 @@ trainerdata 700, "Giovanni"
         ball ITEM_MASTER_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_HASTY
+        nature NATURE_NAIVE
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -25786,13 +25861,13 @@ trainerdata 701, "Lance"
         ivs 0
         abilityslot 0
         level 100
-        pokemon SPECIES_HAXORUS
+        pokemon SPECIES_TORTERRA
         item ITEM_SITRUS_BERRY
-        move MOVE_DRAGON_RUSH
         move MOVE_EARTHQUAKE
-        move MOVE_DRAGON_DANCE
-        move MOVE_SUBSTITUTE
-        ability ABILITY_MOLD_BREAKER
+        move MOVE_WOOD_HAMMER
+        move MOVE_ROCK_CLIMB
+        move MOVE_ROCK_POLISH
+        ability ABILITY_THICK_FAT
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
@@ -25873,7 +25948,7 @@ trainerdata 702, "Will"
         abilityslot 0
         level 100
         pokemon SPECIES_DELPHOX
-        item ITEM_LEFTOVERS
+        item ITEM_LIFE_ORB
         move MOVE_MIND_BLOWN
         move MOVE_PSYCHIC
         move MOVE_DAZZLING_GLEAM
@@ -25945,11 +26020,11 @@ trainerdata 702, "Will"
         abilityslot 0
         level 100
         pokemon SPECIES_VICTINI
-        item ITEM_CHOICE_SCARF
+        item ITEM_WHITE_HERB
         move MOVE_V_CREATE
-        move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
+        move MOVE_BOLT_STRIKE
+        move MOVE_PSYCHO_BOOST
+        move MOVE_SUNNY_DAY
         ability ABILITY_VICTORY_STAR
         ball ITEM_MASTER_BALL
         setivs 31, 31, 31, 31, 31, 31

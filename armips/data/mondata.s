@@ -4373,7 +4373,7 @@ mondata SPECIES_GLIGAR, "Gligar"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_HYPER_CUTTER, ABILITY_NONE
+    abilities ABILITY_HYPER_CUTTER, ABILITY_IMMUNITY
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_GLIGAR, "It flies straight at its target’s\nface, then clamps down on the\nstartled victim to inject poison."
@@ -9938,7 +9938,7 @@ mondata SPECIES_GLISCOR, "Gliscor"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_HYPER_CUTTER, ABILITY_NONE
+    abilities ABILITY_HYPER_CUTTER, ABILITY_POISON_HEAL
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_GLISCOR, "Its flight is soundless. It uses its\nlengthy tail to carry off its prey...\nThen its elongated fangs do the rest."
@@ -16111,7 +16111,7 @@ mondata SPECIES_XERNEAS, "Xerneas"
     eggcycles 120
     basefriendship 0
     growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    egggroups EGG_GROUP_DITTO, EGG_GROUP_DITTO
     abilities ABILITY_FAIRY_AURA, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
@@ -25723,7 +25723,7 @@ mondata SPECIES_ZYGARDE_50_COMPLETE, "-----"
 
 
 mondata SPECIES_HOOPA_UNBOUND, "-----"
-    basestats 80, 160, 60, 80, 170, 130
+    basestats 80, 160, 70, 80, 160, 130
     types TYPE_PSYCHIC, TYPE_DARK
     catchrate 3
     baseexp 270
