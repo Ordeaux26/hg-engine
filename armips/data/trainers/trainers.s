@@ -1710,14 +1710,14 @@ trainerdata 34, "Chuck"
         pokemon SPECIES_SAWK
         item ITEM_LUM_BERRY
         move MOVE_CLOSE_COMBAT
-        move MOVE_ICE_PUNCH
+        move MOVE_THROAT_CHOP
         move MOVE_ROCK_SLIDE
         move MOVE_REVERSAL
         ability ABILITY_STURDY
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_HASTY
+        nature NATURE_LONELY
         shinylock 0
         additionalflags 0
         ballseal 0
