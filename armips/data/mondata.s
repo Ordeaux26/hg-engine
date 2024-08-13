@@ -15524,7 +15524,7 @@ mondata SPECIES_BINACLE, "Binacle"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
-    abilities ABILITY_TOUGH_CLAWS, ABILITY_NONE
+    abilities ABILITY_TOUGH_CLAWS, ABILITY_SNIPER
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_BINACLE, "Two Binacle live together on one rock.\nWhen they fight, one of them will move\nto a different rock."
@@ -15545,7 +15545,7 @@ mondata SPECIES_BARBARACLE, "Barbaracle"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
-    abilities ABILITY_TOUGH_CLAWS, ABILITY_NONE
+    abilities ABILITY_TOUGH_CLAWS, ABILITY_SNIPER
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_BARBARACLE, "When they evolve, two Binacle multiply\ninto seven. They fight with the power\nof seven Binacle."

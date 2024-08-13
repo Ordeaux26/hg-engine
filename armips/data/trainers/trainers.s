@@ -1344,7 +1344,7 @@ trainerdata 30, "Whitney"
 
         ivs 0
         abilityslot 0
-        level 18
+        level 19
         pokemon SPECIES_AUDINO
         item ITEM_LUM_BERRY
         move MOVE_DISARMING_VOICE
@@ -1744,12 +1744,12 @@ trainerdata 34, "Chuck"
         abilityslot 0
         level 48
         pokemon SPECIES_BARBARACLE
-        item ITEM_WHITE_HERB
+        item ITEM_SCOPE_LENS
         move MOVE_CRABHAMMER
         move MOVE_CROSS_CHOP
         move MOVE_ROCK_SLIDE
-        move MOVE_SHELL_SMASH
-        ability ABILITY_TOUGH_CLAWS
+        move MOVE_FOCUS_ENERGY
+        ability ABILITY_SNIPER
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
@@ -8965,7 +8965,7 @@ trainerdata 245, "Will"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_SASSY
+        nature NATURE_BASHFUL
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -18208,7 +18208,7 @@ trainerdata 486, "Proton"
 
         ivs 0
         abilityslot 0
-        level 29
+        level 28
         pokemon SPECIES_GOTHORITA
         item ITEM_WISE_GLASSES
         move MOVE_PSYSHOCK
@@ -18219,7 +18219,7 @@ trainerdata 486, "Proton"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_QUIET
+        nature NATURE_BRAVE
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -25957,7 +25957,7 @@ trainerdata 702, "Will"
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_SASSY
+        nature NATURE_BASHFUL
         shinylock 0
         additionalflags 0
         ballseal 0
