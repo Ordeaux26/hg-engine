@@ -4395,8 +4395,8 @@ levelup SPECIES_YANMA
     learnset MOVE_AIR_CUTTER, 12
     learnset MOVE_SUPERSONIC, 15
     learnset MOVE_DETECT, 19
-    learnset MOVE_HYPNOSIS, 24
-    learnset MOVE_SWIFT, 29
+    learnset MOVE_SWIFT, 24
+    learnset MOVE_HYPNOSIS, 29
     learnset MOVE_SIGNAL_BEAM, 32
     learnset MOVE_AIR_SLASH, 35
     learnset MOVE_GIGA_DRAIN, 40
@@ -7178,8 +7178,7 @@ levelup SPECIES_ROSELIA
     learnset MOVE_VENOSHOCK, 19
     learnset MOVE_SWEET_SCENT, 24
     learnset MOVE_TOXIC, 27
-    learnset MOVE_SLEEP_POWDER, 31
-    learnset MOVE_SYNTHESIS, 34
+    learnset MOVE_SYNTHESIS, 31
     learnset MOVE_MEGA_DRAIN, 36
     learnset MOVE_SLUDGE_BOMB, 39
     learnset MOVE_EXTRASENSORY, 45
@@ -8865,6 +8864,7 @@ levelup SPECIES_GROTLE
 levelup SPECIES_TORTERRA
     learnset MOVE_TAKE_DOWN, 1
     learnset MOVE_GROWL, 1
+    learnset MOVE_HEAD_SMASH, 1
     learnset MOVE_MEGA_DRAIN, 1
     learnset MOVE_BITE, 1
     learnset MOVE_CRUNCH, 1
@@ -8880,7 +8880,9 @@ levelup SPECIES_TORTERRA
     learnset MOVE_STOMPING_TANTRUM, 42
     learnset MOVE_EARTHQUAKE, 47
     learnset MOVE_LEAF_STORM, 50
+    learnset MOVE_IRON_TAIL, 57
     learnset MOVE_WOOD_HAMMER, 63
+    learnset MOVE_STONE_EDGE, 69
     learnset MOVE_HEADLONG_RUSH, 78
     terminatelearnset
 
@@ -10587,9 +10589,9 @@ levelup SPECIES_YANMEGA
     learnset MOVE_POLLEN_PUFF, 1
     learnset MOVE_SONIC_BOOM, 1
     learnset MOVE_AIR_CUTTER, 1
+    learnset MOVE_HYPNOSIS, 1
     learnset MOVE_SUPERSONIC, 1
     learnset MOVE_DETECT, 1
-    learnset MOVE_HYPNOSIS, 1
     learnset MOVE_SWIFT, 1
     learnset MOVE_SIGNAL_BEAM, 32
     learnset MOVE_AIR_SLASH, 35
@@ -13382,7 +13384,7 @@ levelup SPECIES_GOTHITA
     learnset MOVE_CHARM, 8
     learnset MOVE_PSYBEAM, 13
     learnset MOVE_THIEF, 15
-    learnset MOVE_HYPNOSIS, 19
+    learnset MOVE_HYPNOSIS, 16
     learnset MOVE_PSYSHOCK, 21
     learnset MOVE_FAKE_TEARS, 25
     learnset MOVE_TAUNT, 31
@@ -13392,11 +13394,11 @@ levelup SPECIES_GOTHITA
 
 
 levelup SPECIES_GOTHORITA
+    learnset MOVE_HYPNOSIS, 1
     learnset MOVE_POUND, 1
     learnset MOVE_CHARM, 1
     learnset MOVE_PSYBEAM, 1
     learnset MOVE_THIEF, 1
-    learnset MOVE_HYPNOSIS, 17
     learnset MOVE_PSYSHOCK, 23
     learnset MOVE_FEINT_ATTACK, 25
     learnset MOVE_FAKE_TEARS, 28

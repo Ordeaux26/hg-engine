@@ -4650,7 +4650,7 @@ movedata MOVE_SNATCH, "Snatch"
     movedescription MOVE_SNATCH, "The user steals the\neffects of any\nhealing or stat-\nchanging move the foe\nattempts to use."
 
 movedata MOVE_SECRET_POWER, "Secret Power"
-    battleeffect MOVE_EFFECT_SECRET_POWER
+    battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_PHYSICAL
     basepower 70
     type TYPE_NORMAL
@@ -8906,7 +8906,7 @@ movedata MOVE_FIERY_DANCE, "Fiery Dance"
     movedescription MOVE_FIERY_DANCE, "Cloaked in flames,\nthe user dances.\nIt may also raise\nthe user’s Sp. Atk."
 
 movedata MOVE_FREEZE_SHOCK, "Freeze Shock"
-    battleeffect MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT_FLINCH
+    battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_ICE
@@ -8922,7 +8922,7 @@ movedata MOVE_FREEZE_SHOCK, "Freeze Shock"
     movedescription MOVE_FREEZE_SHOCK, "A two-turn attack\nthat hits the foe\nwith electrically\ncharged ice. It may\nparalyze the foe."
 
 movedata MOVE_ICE_BURN, "Ice Burn"
-    battleeffect MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT_FLINCH
+    battleeffect MOVE_EFFECT_BURN_HIT
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_ICE
@@ -13133,7 +13133,7 @@ movedata MOVE_JUNGLE_HEALING, "Jungle Healing"
 movedata MOVE_WICKED_BLOW, "Wicked Blow"
     battleeffect MOVE_EFFECT_ALWAYS_CRITICAL
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 75
     type TYPE_DARK
     accuracy 100
     pp 5
