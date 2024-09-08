@@ -497,7 +497,7 @@ encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
 encounter SPECIES_BUIZEL, 7, 7
-encounter SPECIES_FRILLISH, 7, 7
+encounter SPECIES_TYMPOLE, 7, 7
 encounter SPECIES_BUIZEL, 7, 7
 encounter SPECIES_BUIZEL, 7, 7
 encounter SPECIES_BUIZEL, 7, 7
