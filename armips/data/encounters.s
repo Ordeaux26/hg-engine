@@ -1590,7 +1590,7 @@ pokemon SPECIES_LITLEO
 pokemon SPECIES_DARUMAKA
 pokemon SPECIES_SCRAGGY
 pokemon SPECIES_DARUMAKA
-pokemon SPECIES_FENNIKEN
+pokemon SPECIES_FENNEKIN
 
 // day encounter slots
 pokemon SPECIES_DARUMAKA

@@ -9061,40 +9061,34 @@ levelup SPECIES_STARAPTOR
 levelup SPECIES_BIDOOF
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1
-    learnset MOVE_DEFENSE_CURL, 5
-    learnset MOVE_ROLLOUT, 9
-    learnset MOVE_HEADBUTT, 13
+    learnset MOVE_SECRET_POWER, 7
+    learnset MOVE_QUICK_ATTACK, 12
+    learnset MOVE_YAWN, 15
     learnset MOVE_HYPER_FANG, 17
-    learnset MOVE_YAWN, 21
-    learnset MOVE_CRUNCH, 25
-    learnset MOVE_TAKE_DOWN, 29
-    learnset MOVE_SUPER_FANG, 33
-    learnset MOVE_SWORDS_DANCE, 37
-    learnset MOVE_AMNESIA, 41
-    learnset MOVE_SUPERPOWER, 45
-    learnset MOVE_CURSE, 49
+    learnset MOVE_SUPER_FANG, 19
+    learnset MOVE_TAKE_DOWN, 23
+    learnset MOVE_RETURN, 32
     terminatelearnset
 
 
 levelup SPECIES_BIBAREL
-    learnset MOVE_WATER_GUN, 0
-    learnset MOVE_WATER_GUN, 1
-    learnset MOVE_AQUA_JET, 1
-    learnset MOVE_ROTOTILLER, 1
+    learnset MOVE_YAWN, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1
-    learnset MOVE_DEFENSE_CURL, 5
-    learnset MOVE_ROLLOUT, 9
-    learnset MOVE_HEADBUTT, 13
-    learnset MOVE_HYPER_FANG, 18
-    learnset MOVE_YAWN, 23
-    learnset MOVE_CRUNCH, 28
-    learnset MOVE_TAKE_DOWN, 33
-    learnset MOVE_SUPER_FANG, 38
-    learnset MOVE_SWORDS_DANCE, 43
-    learnset MOVE_AMNESIA, 48
-    learnset MOVE_SUPERPOWER, 53
-    learnset MOVE_CURSE, 58
+    learnset MOVE_SECRET_POWER, 7
+    learnset MOVE_QUICK_ATTACK, 12
+    learnset MOVE_WATER_GUN, 16
+    learnset MOVE_HYPER_FANG, 19
+    learnset MOVE_AQUA_JET, 21
+    learnset MOVE_SUPER_FANG, 24
+    learnset MOVE_TAKE_DOWN, 27
+    learnset MOVE_WATERFALL, 31
+    learnset MOVE_RETURN, 34
+    learnset MOVE_AQUA_TAIL, 39
+    learnset MOVE_DOUBLE_EDGE, 43
+    learnset MOVE_SUPERPOWER, 48
+    learnset MOVE_AMNESIA, 54
+    learnset MOVE_CURSE, 80
     terminatelearnset
 
 
