@@ -18498,7 +18498,7 @@ trainerdata 477, "Mickey"
     endparty
 
 trainerdata 478, "Ariana"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass CLASS_EXECUTIVE
     nummons 3
     item ITEM_NONE
@@ -18510,37 +18510,113 @@ trainerdata 478, "Ariana"
     endentry
 
     party 478
-        // mon 0
-        ivs 100
+        ivs 0
         abilityslot 0
-        level 32
-        pokemon SPECIES_ARBOK
-        move MOVE_WRAP
-        move MOVE_POISON_STING
-        move MOVE_CRUNCH
-        move MOVE_GLARE
+        level 66
+        pokemon SPECIES_INFERNAPE
+        item ITEM_FOCUS_SASH
+        move MOVE_OVERHEAT
+        move MOVE_CLOSE_COMBAT
+        move MOVE_STEALTH_ROCK
+        move MOVE_FAKE_OUT
+        ability ABILITY_BLAZE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_RASH
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 1
-        ivs 100
+        ivs 0
         abilityslot 0
-        level 32
-        pokemon SPECIES_VILEPLUME
-        move MOVE_MEGA_DRAIN
-        move MOVE_SWEET_SCENT
-        move MOVE_SLEEP_POWDER
-        move MOVE_ACID
+        level 67
+        pokemon SPECIES_ESCAVALIER
+        item ITEM_OCCA_BERRY
+        move MOVE_X_SCISSOR
+        move MOVE_METEOR_MASH
+        move MOVE_CLOSE_COMBAT
+        move MOVE_PROTECT
+        ability ABILITY_SHELL_ARMOR
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_IMPISH
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 2
-        ivs 100
-        abilityslot 32
-        level 32
-        pokemon SPECIES_MURKROW
-        move MOVE_WING_ATTACK
-        move MOVE_PURSUIT
-        move MOVE_ASTONISH
-        move MOVE_NIGHT_SHADE
+        ivs 0
+        abilityslot 0
+        level 66
+        pokemon SPECIES_WEAVILE
+        item ITEM_FOCUS_SASH
+        move MOVE_ICICLE_CRASH
+        move MOVE_KNOCK_OFF
+        move MOVE_LOW_KICK
+        move MOVE_FAKE_OUT
+        ability ABILITY_INNER_FOCUS
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_NAIVE
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 66
+        pokemon SPECIES_REUNICLUS
+        item ITEM_LEFTOVERS
+        move MOVE_PSYSTRIKE
+        move MOVE_DAZZLING_GLEAM
+        move MOVE_RECOVER
+        move MOVE_CALM_MIND
+        ability ABILITY_MAGIC_GUARD
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BOLD
+        shinylock 0
+        additionalflags TRAINER_DATA_EXTRA_TYPE_STATUS
+        status 0x10
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 65
+        pokemon SPECIES_GARCHOMP
+        item ITEM_ROCKY_HELMET
+        move MOVE_EARTHQUAKE
+        move MOVE_DRAGON_CLAW
+        move MOVE_STONE_EDGE
+        move MOVE_AGILITY
+        ability ABILITY_ROUGH_SKIN
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_HARDY
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 66
+        pokemon SPECIES_HOOPA
+        item ITEM_BRIGHT_POWDER
+        move MOVE_HYPERSPACE_HOLE
+        move MOVE_SHADOW_BALL
+        move MOVE_DESTINY_BOND
+        move MOVE_DOUBLE_TEAM
+        ability ABILITY_MAGICIAN
+        ball ITEM_MASTER_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_LAX
+        shinylock 0
+        additionalflags 0
         ballseal 0
     endparty
 

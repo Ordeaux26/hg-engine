@@ -4890,18 +4890,23 @@ levelup SPECIES_HERACROSS
 
 
 levelup SPECIES_SNEASEL
-    learnset MOVE_LEER, 1
     learnset MOVE_SCRATCH, 1
-    learnset MOVE_TAUNT, 6
-    learnset MOVE_QUICK_ATTACK, 12
-    learnset MOVE_METAL_CLAW, 18
-    learnset MOVE_ICY_WIND, 24
-    learnset MOVE_FURY_SWIPES, 30
-    learnset MOVE_HONE_CLAWS, 36
-    learnset MOVE_BEAT_UP, 42
-    learnset MOVE_AGILITY, 48
-    learnset MOVE_SCREECH, 54
-    learnset MOVE_SLASH, 60
+    learnset MOVE_LEER, 1
+    learnset MOVE_QUICK_ATTACK, 5
+    learnset MOVE_FEINT_ATTACK, 9
+    learnset MOVE_ICE_SHARD, 11
+    learnset MOVE_FAKE_OUT, 17
+    learnset MOVE_METAL_CLAW, 22
+    learnset MOVE_SLASH, 25
+    learnset MOVE_LOW_KICK, 29
+    learnset MOVE_ICE_PUNCH, 31
+    learnset MOVE_NIGHT_SLASH, 35
+    learnset MOVE_SCREECH, 39
+    learnset MOVE_THROAT_CHOP, 43
+    learnset MOVE_ICICLE_CRASH, 47
+    learnset MOVE_KNOCK_OFF, 50
+    learnset MOVE_TRIPLE_AXEL, 54
+    learnset MOVE_BEAT_UP, 59
     terminatelearnset
 
 
@@ -10347,30 +10352,27 @@ levelup SPECIES_ABOMASNOW
 
 
 levelup SPECIES_WEAVILE
-    learnset MOVE_REVENGE, 1
-    learnset MOVE_ASSURANCE, 1
-    learnset MOVE_QUICK_ATTACK, 1
-    learnset MOVE_BEAT_UP, 1
-    learnset MOVE_AGILITY, 1
-    learnset MOVE_SLASH, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_TAUNT, 1
+    learnset MOVE_LASH_OUT, 1
+    learnset MOVE_FOCUS_PUNCH, 1
+    learnset MOVE_QUICK_ATTACK, 1
+    learnset MOVE_FLING, 1
+    learnset MOVE_FEINT_ATTACK, 1
     learnset MOVE_ICE_SHARD, 1
-    learnset MOVE_EMBARGO, 1
-    learnset MOVE_QUICK_ATTACK, 8
-    learnset MOVE_FEINT_ATTACK, 10
-    learnset MOVE_METAL_CLAW, 19
-    learnset MOVE_ICY_WIND, 19
-    learnset MOVE_FURY_SWIPES, 23
-    learnset MOVE_HONE_CLAWS, 30
-    learnset MOVE_NASTY_PLOT, 34
-    learnset MOVE_FLING, 35
-    learnset MOVE_SNATCH, 40
-    learnset MOVE_SCREECH, 43
-    learnset MOVE_PUNISHMENT, 44
-    learnset MOVE_NIGHT_SLASH, 48
-    learnset MOVE_DARK_PULSE, 57
+    learnset MOVE_FAKE_OUT, 1
+    learnset MOVE_METAL_CLAW, 1
+    learnset MOVE_SLASH, 1
+    learnset MOVE_LOW_KICK, 1
+    learnset MOVE_NIGHT_SLASH, 1
+    learnset MOVE_SCREECH, 1
+    learnset MOVE_THROAT_CHOP, 43
+    learnset MOVE_ICICLE_CRASH, 47
+    learnset MOVE_KNOCK_OFF, 50
+    learnset MOVE_TRIPLE_AXEL, 57
+    learnset MOVE_BEAT_UP, 64
+    learnset MOVE_CLOSE_COMBAT, 72
+    learnset MOVE_PUNISHMENT, 83
     terminatelearnset
 
 
