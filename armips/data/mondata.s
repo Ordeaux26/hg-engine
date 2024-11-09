@@ -14190,7 +14190,7 @@ mondata SPECIES_PAWNIARD, "Pawniard"
 
 
 mondata SPECIES_BISHARP, "Bisharp"
-    basestats 100, 135, 100, 70, 60, 70
+    basestats 65, 125, 100, 70, 60, 70
     types TYPE_DARK, TYPE_STEEL
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -21719,7 +21719,7 @@ mondata SPECIES_KINGAMBIT, "Kingambit"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_DEFIANT, ABILITY_SUPREME_OVERLORD
+    abilities ABILITY_DEFIANT, ABILITY_INNER_FOCUS
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_KINGAMBIT, "Only a Bisharp that stands above all\nothers in its vast army can evolve\ninto Kingambit."

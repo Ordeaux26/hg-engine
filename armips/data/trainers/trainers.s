@@ -9528,30 +9528,12 @@ trainerdata 246, "Karen"
         move MOVE_NIGHT_DAZE
         move MOVE_FLAMETHROWER
         move MOVE_GRASS_KNOT
-        move MOVE_ICY_WIND
+        move MOVE_NASTY_PLOT
         ability ABILITY_ILLUSION
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
         nature NATURE_HARDY
-        shinylock 0
-        additionalflags 0
-        ballseal 0
-
-        ivs 0
-        abilityslot 0
-        level 100
-        pokemon SPECIES_BISHARP
-        item ITEM_CHOPLE_BERRY
-        move MOVE_KNOCK_OFF
-        move MOVE_SACRED_SWORD
-        move MOVE_IRON_HEAD
-        move MOVE_SWORDS_DANCE
-        ability ABILITY_DEFIANT
-        ball ITEM_POKE_BALL
-        setivs 31, 31, 31, 31, 31, 31
-        setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_LAX
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -9570,6 +9552,24 @@ trainerdata 246, "Karen"
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
         nature NATURE_MODEST
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 100
+        pokemon SPECIES_KINGAMBIT
+        item ITEM_CHOPLE_BERRY
+        move MOVE_KNOCK_OFF
+        move MOVE_SUCKER_PUNCH
+        move MOVE_IRON_HEAD
+        move MOVE_SWORDS_DANCE
+        ability ABILITY_SUPREME_OVERLORD
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_LAX
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -27553,30 +27553,12 @@ trainerdata 705, "Karen"
         move MOVE_NIGHT_DAZE
         move MOVE_FLAMETHROWER
         move MOVE_GRASS_KNOT
-        move MOVE_ICY_WIND
+        move MOVE_NASTY_PLOT
         ability ABILITY_ILLUSION
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
         nature NATURE_HARDY
-        shinylock 0
-        additionalflags 0
-        ballseal 0
-
-        ivs 0
-        abilityslot 0
-        level 100
-        pokemon SPECIES_BISHARP
-        item ITEM_CHOPLE_BERRY
-        move MOVE_KNOCK_OFF
-        move MOVE_SACRED_SWORD
-        move MOVE_IRON_HEAD
-        move MOVE_SWORDS_DANCE
-        ability ABILITY_DEFIANT
-        ball ITEM_POKE_BALL
-        setivs 31, 31, 31, 31, 31, 31
-        setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_LAX
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -27595,6 +27577,24 @@ trainerdata 705, "Karen"
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
         nature NATURE_MODEST
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 100
+        pokemon SPECIES_KINGAMBIT
+        item ITEM_CHOPLE_BERRY
+        move MOVE_KNOCK_OFF
+        move MOVE_SUCKER_PUNCH
+        move MOVE_IRON_HEAD
+        move MOVE_SWORDS_DANCE
+        ability ABILITY_SUPREME_OVERLORD
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_LAX
         shinylock 0
         additionalflags 0
         ballseal 0
