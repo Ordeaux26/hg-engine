@@ -9505,24 +9505,6 @@ trainerdata 246, "Karen"
         ivs 0
         abilityslot 0
         level 100
-        pokemon SPECIES_DARKRAI
-        item ITEM_LIFE_ORB
-        move MOVE_DARK_PULSE
-        move MOVE_AURA_SPHERE
-        move MOVE_SLUDGE_WAVE
-        move MOVE_DARK_VOID
-        ability ABILITY_BAD_DREAMS
-        ball ITEM_MASTER_BALL
-        setivs 31, 31, 31, 31, 31, 31
-        setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_TIMID
-        shinylock 0
-        additionalflags 0
-        ballseal 0
-
-        ivs 0
-        abilityslot 0
-        level 100
         pokemon SPECIES_ZOROARK
         item ITEM_FIGY_BERRY
         move MOVE_NIGHT_DAZE
@@ -9534,6 +9516,24 @@ trainerdata 246, "Karen"
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
         nature NATURE_HARDY
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 100
+        pokemon SPECIES_DARKRAI
+        item ITEM_LIFE_ORB
+        move MOVE_DARK_PULSE
+        move MOVE_AURA_SPHERE
+        move MOVE_SLUDGE_WAVE
+        move MOVE_DARK_VOID
+        ability ABILITY_BAD_DREAMS
+        ball ITEM_MASTER_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_TIMID
         shinylock 0
         additionalflags 0
         ballseal 0
@@ -27530,24 +27530,6 @@ trainerdata 705, "Karen"
         ivs 0
         abilityslot 0
         level 100
-        pokemon SPECIES_DARKRAI
-        item ITEM_LIFE_ORB
-        move MOVE_DARK_PULSE
-        move MOVE_AURA_SPHERE
-        move MOVE_SLUDGE_WAVE
-        move MOVE_DARK_VOID
-        ability ABILITY_BAD_DREAMS
-        ball ITEM_MASTER_BALL
-        setivs 31, 31, 31, 31, 31, 31
-        setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_TIMID
-        shinylock 0
-        additionalflags 0
-        ballseal 0
-
-        ivs 0
-        abilityslot 0
-        level 100
         pokemon SPECIES_ZOROARK
         item ITEM_FIGY_BERRY
         move MOVE_NIGHT_DAZE
@@ -27559,6 +27541,24 @@ trainerdata 705, "Karen"
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
         nature NATURE_HARDY
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 100
+        pokemon SPECIES_DARKRAI
+        item ITEM_LIFE_ORB
+        move MOVE_DARK_PULSE
+        move MOVE_AURA_SPHERE
+        move MOVE_SLUDGE_WAVE
+        move MOVE_DARK_VOID
+        ability ABILITY_BAD_DREAMS
+        ball ITEM_MASTER_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_TIMID
         shinylock 0
         additionalflags 0
         ballseal 0
