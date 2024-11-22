@@ -13392,7 +13392,7 @@ mondata SPECIES_SAWSBUCK, "Sawsbuck"
 
 
 mondata SPECIES_EMOLGA, "Emolga"
-    basestats 55, 75, 60, 103, 75, 60
+    basestats 55, 100, 60, 110, 75, 60
     types TYPE_ELECTRIC, TYPE_FLYING
     catchrate 200
     baseexp 0 // defined in baseexp.s
