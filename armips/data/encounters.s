@@ -2720,57 +2720,57 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 13, 15, 13, 15, 15, 15, 14, 14, 15, 15, 15, 15
+walklevels 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16
 
 // morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_CROAGUNK
+pokemon SPECIES_STUNKY
+pokemon SPECIES_CROAGUNK
+pokemon SPECIES_STUNKY
+pokemon SPECIES_SANDILE
+pokemon SPECIES_SANDILE
+pokemon SPECIES_INKAY
+pokemon SPECIES_INKAY
+pokemon SPECIES_ZORUA
+pokemon SPECIES_PURRLOIN
+pokemon SPECIES_ZORUA
+pokemon SPECIES_SCRAGGY
 
 // day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_GROWLITHE
+pokemon SPECIES_SKORUPI
+pokemon SPECIES_PURRLOIN
+pokemon SPECIES_SKORUPI
+pokemon SPECIES_PURRLOIN
+pokemon SPECIES_SHINX
+pokemon SPECIES_SHINX
+pokemon SPECIES_ZORUA
+pokemon SPECIES_ZORUA
+pokemon SPECIES_SCRAGGY
+pokemon SPECIES_MURKROW
+pokemon SPECIES_SCRAGGY
+pokemon SPECIES_DRIFLOON
 
 // night encounter slots
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_STANTLER
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_STANTLER
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_SPINARAK
+pokemon SPECIES_ZORUA
+pokemon SPECIES_SCRAGGY
+pokemon SPECIES_ZORUA
+pokemon SPECIES_SCRAGGY
+pokemon SPECIES_PORYGON
+pokemon SPECIES_PORYGON
+pokemon SPECIES_PANCHAM
+pokemon SPECIES_PANCHAM
+pokemon SPECIES_PURRLOIN
+pokemon SPECIES_LILLIPUP
+pokemon SPECIES_PURRLOIN
+pokemon SPECIES_MURKROW
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_NONE
+pokemon SPECIES_NONE
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_NONE
+pokemon SPECIES_NONE
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -2805,7 +2805,7 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // swarm grass
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_NONE
 // swarm surf
 pokemon SPECIES_NONE
 // swarm good rod

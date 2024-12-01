@@ -13004,7 +13004,7 @@ mondata SPECIES_TRUBBISH, "Trubbish"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_STENCH, ABILITY_STICKY_HOLD
+    abilities ABILITY_WIMP_OUT, ABILITY_STICKY_HOLD
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_TRUBBISH, "Wanting more garbage, they follow\npeople who litter. They always belch\npoison gas."
@@ -13025,7 +13025,7 @@ mondata SPECIES_GARBODOR, "Garbodor"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_STENCH, ABILITY_STICKY_HOLD
+    abilities ABILITY_EMERGENCY_EXIT, ABILITY_STICKY_HOLD
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_GARBODOR, "Consuming garbage makes new kinds of\npoison gases and liquids inside their\nbodies."
@@ -13823,7 +13823,7 @@ mondata SPECIES_LITWICK, "Litwick"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_FLAME_BODY, ABILITY_NONE
+    abilities ABILITY_FLAME_BODY, ABILITY_INFILTRATOR
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_LITWICK, "Its flame is usually out, but it starts\nshining when it absorbs life force from\npeople or Pokémon."
@@ -13844,7 +13844,7 @@ mondata SPECIES_LAMPENT, "Lampent"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_NONE
+    abilities ABILITY_LEVITATE, ABILITY_INFILTRATOR
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_LAMPENT, "It arrives near the moment of death and\nsteals spirit from the body."
@@ -13865,7 +13865,7 @@ mondata SPECIES_CHANDELURE, "Chandelure"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_NONE
+    abilities ABILITY_LEVITATE, ABILITY_INFILTRATOR
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_CHANDELURE, "Being consumed in Chandelure’s flame\nburns up the spirit, leaving the body\nbehind."
