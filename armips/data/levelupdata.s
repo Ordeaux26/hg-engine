@@ -11140,18 +11140,18 @@ levelup SPECIES_MANAPHY
 
 
 levelup SPECIES_DARKRAI
-    learnset MOVE_OMINOUS_WIND, 1
-    learnset MOVE_DISABLE, 1
-    learnset MOVE_QUICK_ATTACK, 11
-    learnset MOVE_HYPNOSIS, 20
-    learnset MOVE_FEINT_ATTACK, 29
-    learnset MOVE_NIGHTMARE, 38
-    learnset MOVE_DOUBLE_TEAM, 47
-    learnset MOVE_HAZE, 57
-    learnset MOVE_DARK_VOID, 66
-    learnset MOVE_NASTY_PLOT, 75
-    learnset MOVE_DREAM_EATER, 84
-    learnset MOVE_DARK_PULSE, 93
+    learnset MOVE_SNARL, 1
+    learnset MOVE_HYPNOSIS, 1
+    learnset MOVE_NIGHT_SHADE, 10
+    learnset MOVE_SUCKER_PUNCH, 20
+    learnset MOVE_NIGHTMARE, 30
+    learnset MOVE_DARK_PULSE, 40
+    learnset MOVE_DREAM_EATER, 50
+    learnset MOVE_KNOCK_OFF, 60
+    learnset MOVE_SLUDGE_WAVE, 70
+    learnset MOVE_NIGHT_DAZE, 80
+    learnset MOVE_OMINOUS_WIND, 90
+    learnset MOVE_DARK_VOID, 100
     terminatelearnset
 
 
