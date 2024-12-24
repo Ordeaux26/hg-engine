@@ -9048,6 +9048,7 @@ levelup SPECIES_STARAVIA
 
 levelup SPECIES_STARAPTOR
     learnset MOVE_QUICK_ATTACK, 1
+    learnset MOVE_TAILWIND, 1
     learnset MOVE_WING_ATTACK, 1
     learnset MOVE_ENDEAVOR, 1
     learnset MOVE_FINAL_GAMBIT, 1
@@ -10580,6 +10581,7 @@ levelup SPECIES_YANMEGA
     learnset MOVE_REVERSAL, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_QUICK_ATTACK, 1
+    learnset MOVE_TAILWIND, 1
     learnset MOVE_STRUGGLE_BUG, 1
     learnset MOVE_BUG_BITE, 1
     learnset MOVE_POLLEN_PUFF, 1
@@ -13417,11 +13419,12 @@ levelup SPECIES_GOTHITELLE
     learnset MOVE_PSYCHIC, 37
     learnset MOVE_DARK_PULSE, 40
     learnset MOVE_THUNDERBOLT, 46
+    learnset MOVE_MOONLIGHT, 50
     learnset MOVE_FUTURE_SIGHT, 53
     learnset MOVE_AURA_SPHERE, 57
     learnset MOVE_LIGHT_SCREEN, 61
     learnset MOVE_REFLECT, 61
-    learnset MOVE_FOCUS_BLAST, 65
+    learnset MOVE_PSYCHO_BOOST, 65
     learnset MOVE_NIGHT_DAZE, 69
     terminatelearnset
 
@@ -15407,6 +15410,7 @@ levelup SPECIES_FLETCHINDER
 
 levelup SPECIES_TALONFLAME
     learnset MOVE_ME_FIRST, 1
+    learnset MOVE_TAILWIND, 1
     learnset MOVE_PECK, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_QUICK_ATTACK, 1

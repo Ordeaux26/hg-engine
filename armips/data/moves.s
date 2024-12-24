@@ -1695,7 +1695,7 @@ movedata MOVE_RECOVER, "Recover"
     basepower 0
     type TYPE_NORMAL
     accuracy 0
-    pp 5
+    pp 10
     effectchance 0
     target MOVE_TARGET_USER
     priority 0
@@ -13071,7 +13071,7 @@ movedata MOVE_TRIPLE_AXEL, "Triple Axel"
     pss SPLIT_PHYSICAL
     basepower 20
     type TYPE_ICE
-    accuracy 100
+    accuracy 95
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED

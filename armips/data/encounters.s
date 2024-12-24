@@ -913,7 +913,7 @@ encounter SPECIES_BINACLE, 10, 10
 
 // old rod encounters
 encounter SPECIES_DUCKLETT, 7, 7
-encounter SPECIES_BASCULIN, 7, 7
+encounter SPECIES_FINNEON, 7, 7
 encounter SPECIES_DUCKLETT, 7, 7
 encounter SPECIES_DUCKLETT, 7, 7
 encounter SPECIES_DUCKLETT, 7, 7
@@ -1537,7 +1537,7 @@ encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
 encounter SPECIES_TYMPOLE, 7, 7
-encounter SPECIES_BINACLE, 7, 7
+encounter SPECIES_BASCULIN, 7, 7
 encounter SPECIES_TYMPOLE, 7, 7
 encounter SPECIES_TYMPOLE, 7, 7
 encounter SPECIES_TYMPOLE, 7, 7
@@ -1641,7 +1641,7 @@ encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
 encounter SPECIES_TYMPOLE, 7, 7
-encounter SPECIES_BINACLE, 7, 7
+encounter SPECIES_BASCULIN, 7, 7
 encounter SPECIES_TYMPOLE, 7, 7
 encounter SPECIES_TYMPOLE, 7, 7
 encounter SPECIES_TYMPOLE, 7, 7
@@ -1745,7 +1745,7 @@ encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
 encounter SPECIES_TYMPOLE, 7, 7
-encounter SPECIES_BINACLE, 7, 7
+encounter SPECIES_BASCULIN, 7, 7
 encounter SPECIES_TYMPOLE, 7, 7
 encounter SPECIES_TYMPOLE, 7, 7
 encounter SPECIES_TYMPOLE, 7, 7
