@@ -379,7 +379,7 @@ The foe is punched with a fiery fist.\nIt may leave the target with a burn.
 The user lands and rests its body.\nIt restores the user’s HP by up to\nhalf of its max HP.
 The user attacks at full power.\nIt may also lower the foe’s Sp. Def\nstat if it hits.
 The user draws power from nature and\nfires it at the foe. It may also lower\nthe target’s Sp. Def.
-A restrained attack that prevents the\nfoe from fainting. The target is left\nwith at least 1 HP.
+The user hits all Pokémon in\nbattle by stomping. Lowers Speed\nof those hit.
 Boiling water is shot at the foe.\nIt may also cause a burn.
 The user flings its held item at the\nfoe to attack. Its power and effects\ndepend on the item.
 The foe is punched with an electrified\nfist. It may leave the target with\nparalysis.

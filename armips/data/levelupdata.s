@@ -8860,7 +8860,6 @@ levelup SPECIES_TORTERRA
     learnset MOVE_BITE, 1
     learnset MOVE_CRUNCH, 1
     learnset MOVE_FRENZY_PLANT, 1
-    learnset MOVE_BULLDOZE, 1
     learnset MOVE_SAND_TOMB, 1
     learnset MOVE_HEAVY_SLAM, 1
     learnset MOVE_SYNTHESIS, 1
@@ -8917,7 +8916,6 @@ levelup SPECIES_INFERNAPE
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
     learnset MOVE_EMBER, 1
-    learnset MOVE_BULLDOZE, 1
     learnset MOVE_VACUUM_WAVE, 1
     learnset MOVE_SUBMISSION, 1
     learnset MOVE_LASH_OUT, 1
@@ -8975,7 +8973,6 @@ levelup SPECIES_PRINPLUP
 
 levelup SPECIES_EMPOLEON
     learnset MOVE_SHEER_COLD, 1
-    learnset MOVE_PLUCK, 1
     learnset MOVE_CHARM, 1
     learnset MOVE_WEATHER_BALL, 1
     learnset MOVE_YAWN, 1
@@ -8984,7 +8981,7 @@ levelup SPECIES_EMPOLEON
     learnset MOVE_METAL_SOUND, 1
     learnset MOVE_HYDRO_CANNON, 1
     learnset MOVE_LIQUIDATION, 1
-    learnset MOVE_BULLDOZE, 1
+    learnset MOVE_PLUCK, 1
     learnset MOVE_AQUA_JET, 1
     learnset MOVE_ROOST, 1
     learnset MOVE_ICE_BEAM, 36
@@ -10057,7 +10054,6 @@ levelup SPECIES_LUCARIO
     learnset MOVE_COUNTER, 1
     learnset MOVE_VACUUM_WAVE, 1
     learnset MOVE_FINAL_GAMBIT, 1
-    learnset MOVE_BULLDOZE, 1
     learnset MOVE_COPYCAT, 1
     learnset MOVE_FORCE_PALM, 1
     learnset MOVE_ENDURE, 1
@@ -10426,7 +10422,6 @@ levelup SPECIES_RHYPERIOR
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_HORN_ATTACK, 1
     learnset MOVE_HEAT_CRASH, 1
-    learnset MOVE_BULLDOZE, 1
     learnset MOVE_SMACK_DOWN, 1
     learnset MOVE_BODY_PRESS, 1
     learnset MOVE_TAKE_DOWN, 1
@@ -11730,7 +11725,6 @@ levelup SPECIES_EMBOAR
     learnset MOVE_FIRE_PLEDGE, 1
     learnset MOVE_HEAT_WAVE, 1
     learnset MOVE_BLAST_BURN, 1
-    learnset MOVE_BULLDOZE, 1
     learnset MOVE_TAKE_DOWN, 1
     learnset MOVE_ARM_THRUST, 1
     learnset MOVE_LOW_SWEEP, 1
@@ -11793,7 +11787,6 @@ levelup SPECIES_SAMUROTT
     learnset MOVE_SCREECH, 1
     learnset MOVE_WATERFALL, 1
     learnset MOVE_ENCORE, 1
-    learnset MOVE_BULLDOZE, 1
     learnset MOVE_WATER_PLEDGE, 1
     learnset MOVE_HYDRO_CANNON, 1
     learnset MOVE_CEASELESS_EDGE, 1
@@ -14728,7 +14721,6 @@ levelup SPECIES_ZWEILOUS
     learnset MOVE_TACKLE, 1
     learnset MOVE_DRAGON_BREATH, 1
     learnset MOVE_HEAD_SMASH, 1
-    learnset MOVE_BULLDOZE, 1
     learnset MOVE_BITE, 10
     learnset MOVE_SECRET_POWER, 19
     learnset MOVE_ASSURANCE, 25
@@ -14750,7 +14742,6 @@ levelup SPECIES_HYDREIGON
     learnset MOVE_BODY_SLAM, 1
     learnset MOVE_DRAGON_BREATH, 1
     learnset MOVE_PSYCHIC_FANGS, 1
-    learnset MOVE_BULLDOZE, 1
     learnset MOVE_BITE, 1
     learnset MOVE_ASSURANCE, 1
     learnset MOVE_CRUNCH, 1
