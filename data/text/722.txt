@@ -223,7 +223,7 @@ Contact with it lowers\nthe attacker’s Speed.
 Copies the Ability of\na defeated ally.
 Copies the Ability of\na defeated ally.
 Boosts its best stat\neach time it deals a KO.
-Its type matches\nthe memory disc it holds.
+Raises Attack if hit\nby a wind-based move.
 Turns the ground\ninto Electric Terrain.
 Turns the ground\ninto Psychic Terrain.
 Turns the ground\ninto Misty Terrain.

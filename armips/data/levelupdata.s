@@ -10117,54 +10117,42 @@ levelup SPECIES_HIPPOWDON
 levelup SPECIES_SKORUPI
     learnset MOVE_POISON_STING, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_BITE, 1
-    learnset MOVE_BITE, 12
-    learnset MOVE_HONE_CLAWS, 15
+    learnset MOVE_BUG_BITE, 6
+    learnset MOVE_BITE, 11
+    learnset MOVE_POISON_TAIL, 14
+    learnset MOVE_DIG, 19
     learnset MOVE_POISON_FANG, 15
-    learnset MOVE_KNOCK_OFF, 15
-    learnset MOVE_PURSUIT, 16
-    learnset MOVE_BUG_BITE, 18
-    learnset MOVE_PIN_MISSILE, 20
-    learnset MOVE_TOXIC_SPIKES, 23
-    learnset MOVE_VENOSHOCK, 23
-    learnset MOVE_FELL_STINGER, 25
-    learnset MOVE_ACUPRESSURE, 30
-    learnset MOVE_SCARY_FACE, 33
-    learnset MOVE_TOXIC, 33
-    learnset MOVE_NIGHT_SLASH, 36
-    learnset MOVE_X_SCISSOR, 42
-    learnset MOVE_CROSS_POISON, 43
-    learnset MOVE_CRUNCH, 46
+    learnset MOVE_NIGHT_SLASH, 22
+    learnset MOVE_CROSS_POISON, 27
+    learnset MOVE_PIN_MISSILE, 32
+    learnset MOVE_POISON_JAB, 35
+    learnset MOVE_CRUNCH, 39
+    learnset MOVE_TOXIC, 41
+    learnset MOVE_KNOCK_OFF, 43
+    learnset MOVE_X_SCISSOR, 47
     terminatelearnset
 
 
 levelup SPECIES_DRAPION
-    learnset MOVE_THUNDER_FANG, 1
-    learnset MOVE_ICE_FANG, 1
-    learnset MOVE_FIRE_FANG, 1
     learnset MOVE_POISON_STING, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_HONE_CLAWS, 1
-    learnset MOVE_FELL_STINGER, 1
+    learnset MOVE_SKITTER_SMACK, 1
+    learnset MOVE_BUG_BITE, 1
+    learnset MOVE_IRON_TAIL, 1
     learnset MOVE_BITE, 1
-    learnset MOVE_KNOCK_OFF, 1
-    learnset MOVE_BITE, 12
-    learnset MOVE_POISON_FANG, 15
-    learnset MOVE_KNOCK_OFF, 15
-    learnset MOVE_PURSUIT, 16
-    learnset MOVE_BUG_BITE, 18
-    learnset MOVE_PIN_MISSILE, 20
-    learnset MOVE_TOXIC_SPIKES, 23
-    learnset MOVE_VENOSHOCK, 23
-    learnset MOVE_HONE_CLAWS, 30
-    learnset MOVE_ACUPRESSURE, 32
-    learnset MOVE_TOXIC, 33
-    learnset MOVE_SCARY_FACE, 34
-    learnset MOVE_NIGHT_SLASH, 36
-    learnset MOVE_X_SCISSOR, 44
-    learnset MOVE_CROSS_POISON, 47
-    learnset MOVE_CRUNCH, 51
-    learnset MOVE_FELL_STINGER, 53
+    learnset MOVE_POISON_TAIL, 1
+    learnset MOVE_POISON_FANG, 1
+    learnset MOVE_NIGHT_SLASH, 1
+    learnset MOVE_CROSS_POISON, 27
+    learnset MOVE_PIN_MISSILE, 32
+    learnset MOVE_POISON_JAB, 35
+    learnset MOVE_CRUNCH, 39
+    learnset MOVE_TOXIC, 42
+    learnset MOVE_KNOCK_OFF, 45
+    learnset MOVE_X_SCISSOR, 49
+    learnset MOVE_TAUNT, 54
+    learnset MOVE_EARTHQUAKE, 59
+    learnset MOVE_SCARY_FACE, 63
     terminatelearnset
 
 

@@ -9602,7 +9602,7 @@ trainerdata 245, "Will"
         abilityslot 0
         level 100
         pokemon SPECIES_SYLVEON
-        item ITEM_SITRUS_BERRY
+        item ITEM_THROAT_SPRAY
         move MOVE_HYPER_VOICE
         move MOVE_MYSTICAL_FIRE
         move MOVE_MOONLIGHT
@@ -27667,7 +27667,7 @@ trainerdata 702, "Will"
         abilityslot 0
         level 100
         pokemon SPECIES_SYLVEON
-        item ITEM_SITRUS_BERRY
+        item ITEM_THROAT_SPRAY
         move MOVE_HYPER_VOICE
         move MOVE_MYSTICAL_FIRE
         move MOVE_MOONLIGHT
