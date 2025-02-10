@@ -384,8 +384,8 @@ pokemon SPECIES_NONE
 encounter SPECIES_FRILLISH, 35, 35
 encounter SPECIES_DRAGALGE, 35, 35
 encounter SPECIES_ALOMOMOLA, 35, 35
-encounter SPECIES_ALOMOMOLA, 35, 35
-encounter SPECIES_ALOMOMOLA, 35, 35
+encounter SPECIES_STUNFISK, 35, 35
+encounter SPECIES_STUNFISK, 35, 35
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -869,8 +869,8 @@ pokemon SPECIES_COTTONEE
 pokemon SPECIES_JOLTIK
 pokemon SPECIES_COTTONEE
 pokemon SPECIES_JOLTIK
-pokemon SPECIES_FOONGUS
-pokemon SPECIES_FOONGUS
+pokemon SPECIES_AUDINO
+pokemon SPECIES_AUDINO
 pokemon SPECIES_PETILIL
 pokemon SPECIES_PETILIL
 pokemon SPECIES_DEDENNE
@@ -883,8 +883,8 @@ pokemon SPECIES_MAGBY
 pokemon SPECIES_ELGYEM
 pokemon SPECIES_MAGBY
 pokemon SPECIES_ELGYEM
-pokemon SPECIES_SCRAGGY
-pokemon SPECIES_SCRAGGY
+pokemon SPECIES_FOONGUS
+pokemon SPECIES_FOONGUS
 pokemon SPECIES_MUNNA
 pokemon SPECIES_MUNNA
 pokemon SPECIES_PETILIL
@@ -1544,10 +1544,10 @@ encounter SPECIES_TYMPOLE, 7, 7
 
 // good rod encounters
 encounter SPECIES_SEISMITOAD, 38, 38
-encounter SPECIES_MANTYKE, 38, 38
-encounter SPECIES_MANTYKE, 38, 38
-encounter SPECIES_MANTYKE, 38, 38
-encounter SPECIES_MANTYKE, 38, 38
+encounter SPECIES_STUNFISK, 38, 38
+encounter SPECIES_BARBARACLE, 38, 38
+encounter SPECIES_BARBARACLE, 38, 38
+encounter SPECIES_BARBARACLE, 38, 38
 
 // super rod encounters
 encounter SPECIES_PIPLUP, 40, 40
@@ -1648,10 +1648,10 @@ encounter SPECIES_TYMPOLE, 7, 7
 
 // good rod encounters
 encounter SPECIES_SEISMITOAD, 38, 38
-encounter SPECIES_MANTYKE, 38, 38
-encounter SPECIES_MANTYKE, 38, 38
-encounter SPECIES_MANTYKE, 38, 38
-encounter SPECIES_MANTYKE, 38, 38
+encounter SPECIES_STUNFISK, 38, 38
+encounter SPECIES_BARBARACLE, 38, 38
+encounter SPECIES_BARBARACLE, 38, 38
+encounter SPECIES_BARBARACLE, 38, 38
 
 // super rod encounters
 encounter SPECIES_PIPLUP, 40, 40
@@ -1752,10 +1752,10 @@ encounter SPECIES_TYMPOLE, 7, 7
 
 // good rod encounters
 encounter SPECIES_SEISMITOAD, 38, 38
-encounter SPECIES_MANTYKE, 38, 38
-encounter SPECIES_MANTYKE, 38, 38
-encounter SPECIES_MANTYKE, 38, 38
-encounter SPECIES_MANTYKE, 38, 38
+encounter SPECIES_STUNFISK, 38, 38
+encounter SPECIES_BARBARACLE, 38, 38
+encounter SPECIES_BARBARACLE, 38, 38
+encounter SPECIES_BARBARACLE, 38, 38
 
 // super rod encounters
 encounter SPECIES_PIPLUP, 40, 40
@@ -2136,7 +2136,7 @@ pokemon SPECIES_COMBEE
 pokemon SPECIES_SEWADDLE
 pokemon SPECIES_SEWADDLE
 pokemon SPECIES_DWEBBLE
-pokemon SPECIES_JOLTIK
+pokemon SPECIES_CARNIVINE
 pokemon SPECIES_DWEBBLE
 pokemon SPECIES_JOLTIK
 
@@ -2151,7 +2151,7 @@ pokemon SPECIES_NONE
 // surf encounters
 encounter SPECIES_FLOATZEL, 35, 35
 encounter SPECIES_FRILLISH, 35, 35
-encounter SPECIES_FRILLISH, 35, 35
+encounter SPECIES_STUNFISK, 35, 35
 encounter SPECIES_GRENINJA, 35, 35
 encounter SPECIES_GRENINJA, 35, 35
 
@@ -2204,9 +2204,9 @@ walklevels 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11
 
 // morning encounter slots
 pokemon SPECIES_CROAGUNK
-pokemon SPECIES_COMBEE
+pokemon SPECIES_AUDINO
 pokemon SPECIES_CROAGUNK
-pokemon SPECIES_COMBEE
+pokemon SPECIES_AUDINO
 pokemon SPECIES_SWIRLIX
 pokemon SPECIES_SWIRLIX
 pokemon SPECIES_TRUBBISH
@@ -2325,8 +2325,8 @@ pokemon SPECIES_PANSAGE
 pokemon SPECIES_SKIDDO
 pokemon SPECIES_PANSAGE
 pokemon SPECIES_SKIDDO
-pokemon SPECIES_COMBEE
-pokemon SPECIES_COMBEE
+pokemon SPECIES_CHATOT
+pokemon SPECIES_CHATOT
 pokemon SPECIES_SHINX
 pokemon SPECIES_SHINX
 pokemon SPECIES_MINCCINO
@@ -2339,8 +2339,8 @@ pokemon SPECIES_VENIPEDE
 pokemon SPECIES_PANSEAR
 pokemon SPECIES_VENIPEDE
 pokemon SPECIES_PANSEAR
-pokemon SPECIES_PIDOVE
-pokemon SPECIES_PIDOVE
+pokemon SPECIES_CHATOT
+pokemon SPECIES_CHATOT
 pokemon SPECIES_CROAGUNK
 pokemon SPECIES_CROAGUNK
 pokemon SPECIES_SKIDDO
@@ -2357,7 +2357,7 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_FLOATZEL, 35, 35
+encounter SPECIES_STUNFISK, 35, 35
 encounter SPECIES_FLOATZEL, 35, 35
 encounter SPECIES_BASCULIN, 35, 35
 encounter SPECIES_PALPITOAD, 35, 35
@@ -7248,8 +7248,8 @@ pokemon SPECIES_NONE
 encounter SPECIES_BASCULIN, 35, 35
 encounter SPECIES_DRAGALGE, 35, 35
 encounter SPECIES_GRENINJA, 35, 35
-encounter SPECIES_GRENINJA, 35, 35
-encounter SPECIES_GRENINJA, 35, 35
+encounter SPECIES_STUNFISK, 35, 35
+encounter SPECIES_STUNFISK, 35, 35
 
 // rock smash encounters
 encounter SPECIES_NOSEPASS, 10, 10

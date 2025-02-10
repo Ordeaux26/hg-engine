@@ -14043,7 +14043,7 @@ mondata SPECIES_ACCELGOR, "Accelgor"
 
 
 mondata SPECIES_STUNFISK, "Stunfisk"
-    basestats 109, 66, 84, 32, 81, 99
+    basestats 109, 55, 104, 33, 91, 109
     types TYPE_GROUND, TYPE_ELECTRIC
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -14054,7 +14054,7 @@ mondata SPECIES_STUNFISK, "Stunfisk"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_STATIC, ABILITY_NONE
+    abilities ABILITY_STATIC, ABILITY_ARENA_TRAP
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_STUNFISK, "When its opponent can’t be paralyzed,\nit contorts itself with unexpected speed\nand flops away."

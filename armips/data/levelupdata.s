@@ -9030,6 +9030,7 @@ levelup SPECIES_STARAVIA
 
 
 levelup SPECIES_STARAPTOR
+    learnset MOVE_GROWL, 1
     learnset MOVE_QUICK_ATTACK, 1
     learnset MOVE_TAILWIND, 1
     learnset MOVE_WING_ATTACK, 1

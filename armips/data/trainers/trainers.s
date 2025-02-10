@@ -15538,23 +15538,70 @@ trainerdata 383, "Peter"
     endparty
 
 trainerdata 384, "Daniel"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 384
-        // mon 0
         ivs 0
-        abilityslot 32
-        level 11
-        pokemon SPECIES_ONIX
+        abilityslot 0
+        level 26
+        pokemon SPECIES_TIRTOUGA
+        item ITEM_CUSTAP_BERRY
+        move MOVE_STEALTH_ROCK
+        move MOVE_RAZOR_SHELL
+        move MOVE_AQUA_JET
+        move MOVE_ROCK_TOMB
+        ability ABILITY_STURDY
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_LAX
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_BOLDORE
+        item ITEM_LOADED_DICE
+        move MOVE_ROCK_BLAST
+        move MOVE_BULLDOZE
+        move MOVE_PROTECT
+        move MOVE_AUTOTOMIZE
+        ability ABILITY_SURDY
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_LONELY
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_KLANG
+        item ITEM_OCCA_BERRY
+        move MOVE_GEAR_GRIND
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ability ABILITY_CLEAR_BODY
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_HARDY
+        shinylock 0
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -15744,23 +15791,70 @@ trainerdata 389, "Nelson"
     endparty
 
 trainerdata 390, "Ray"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_FIREBREATHER
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 390
-        // mon 0
         ivs 0
         abilityslot 0
-        level 9
-        pokemon SPECIES_VULPIX
+        level 27
+        pokemon SPECIES_PURRLOIN
+        item ITEM_HEAT_ROCK
+        move MOVE_SUNNY_DAY
+        move MOVE_MEMENTO
+        move MOVE_NONE
+        move MOVE_NONE
+        ability ABILITY_PRANKSTER
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_MILD
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_PIGNITE
+        item ITEM_ROCKY_HELMET
+        move MOVE_HEAT_CRASH
+        move MOVE_ARM_THRUST
+        move MOVE_ROCK_TOMB
+        move MOVE_SCARY_FACE
+        ability ABILITY_THICK_FAT
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_DOCILE
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 26
+        pokemon SPECIES_CARNIVINE
+        item ITEM_LUM_BERRY
+        move MOVE_LEAF_TORNADO
+        move MOVE_BITE
+        move MOVE_SLAM
+        move MOVE_GRASS_WHISTLE
+        ability ABILITY_FLASH_FIRE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_MODEST
+        shinylock 0
+        additionalflags 0
         ballseal 0
     endparty
 
