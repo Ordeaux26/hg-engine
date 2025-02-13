@@ -14474,7 +14474,7 @@ mondata SPECIES_COBALION, "Cobalion"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_JUSTIFIED, ABILITY_NONE
+    abilities ABILITY_JUSTIFIED, ABILITY_SHARPNESS
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_COBALION, "It has a body and heart of steel. Its\nglare is sufficient to make even an\nunruly Pokémon obey it."
@@ -14495,7 +14495,7 @@ mondata SPECIES_TERRAKION, "Terrakion"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_JUSTIFIED, ABILITY_NONE
+    abilities ABILITY_JUSTIFIED, ABILITY_SHARPNESS
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_TERRAKION, "This Pokémon came to the defense of\nPokémon that had lost their homes in a\nwar among humans."
@@ -14516,7 +14516,7 @@ mondata SPECIES_VIRIZION, "Virizion"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_JUSTIFIED, ABILITY_NONE
+    abilities ABILITY_JUSTIFIED, ABILITY_SHARPNESS
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_VIRIZION, "Legends say this Pokémon confounded\nopponents with its swift movements."
@@ -14663,7 +14663,7 @@ mondata SPECIES_KELDEO, "Keldeo"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_JUSTIFIED, ABILITY_NONE
+    abilities ABILITY_JUSTIFIED, ABILITY_SHARPNESS
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_KELDEO, "It crosses the world, running over the\nsurfaces of oceans and rivers. It\nappears at scenic waterfronts."
