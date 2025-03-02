@@ -6305,7 +6305,7 @@ mondata SPECIES_NOSEPASS, "Nosepass"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_STURDY, ABILITY_MAGNET_PULL
+    abilities ABILITY_STURDY, ABILITY_BATTLE_ARMOR
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_NOSEPASS, "If two of these meet, they cannot\nget too close because their noses\nrepel each other."
@@ -8888,7 +8888,7 @@ mondata SPECIES_SHELLOS, "Shellos"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_STICKY_HOLD, ABILITY_SAND_FORCE
+    abilities ABILITY_STICKY_HOLD, ABILITY_WATER_ABSORB
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_SHELLOS, "Its shape and coloration vary,\ndepending on its habitat."
@@ -8909,7 +8909,7 @@ mondata SPECIES_GASTRODON, "Gastrodon"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_STICKY_HOLD, ABILITY_SAND_FORCE
+    abilities ABILITY_STICKY_HOLD, ABILITY_WATER_ABSORB
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_GASTRODON, "When its natural enemy attacks,\nit oozes purple fluid and escapes."
@@ -10022,7 +10022,7 @@ mondata SPECIES_PROBOPASS, "Probopass"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_STURDY, ABILITY_MAGNET_PULL
+    abilities ABILITY_STURDY, ABILITY_BULLETPROOF
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_PROBOPASS, "It controls three units called Mini-Noses\nusing magnetic force. With them, it can\nattack the foe from three directions."
@@ -11597,7 +11597,7 @@ mondata SPECIES_OSHAWOTT, "Oshawott"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_TORRENT, ABILITY_ADAPTABILITY
+    abilities ABILITY_TORRENT, ABILITY_SHELL_ARMOR
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_OSHAWOTT, "The scalchop on its stomach isn’t just\nused for battle--it is also used to\nbreak open hard berries."
@@ -11628,7 +11628,7 @@ mondata SPECIES_DEWOTT, "Dewott"
 
 
 mondata SPECIES_SAMUROTT, "Samurott"
-    basestats 95, 110, 85, 75, 100, 70
+    basestats 95, 100, 85, 85, 100, 70
     types TYPE_WATER, TYPE_WATER
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -13508,7 +13508,7 @@ mondata SPECIES_FRILLISH, "Frillish"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_WATER_ABSORB, ABILITY_CURSED_BODY
+    abilities ABILITY_SHADOW_SHIELD, ABILITY_DAMP
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_FRILLISH, "They paralyze prey with poison, then\ndrag them down to their lairs, five\nmiles below the surface."
@@ -13529,7 +13529,7 @@ mondata SPECIES_JELLICENT, "Jellicent"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_WATER_ABSORB, ABILITY_CURSED_BODY
+    abilities ABILITY_SHADOW_SHIELD, ABILITY_DAMP
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_JELLICENT, "Jellicent is always hanging around\nfancy cruise ships and tankers, hoping\nto drag away its prey."
@@ -24302,7 +24302,7 @@ mondata SPECIES_SHELLOS_EAST_SEA, "-----"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_STICKY_HOLD,  ABILITY_STORM_DRAIN
+    abilities ABILITY_STICKY_HOLD, ABILITY_WATER_ABSORB
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 
@@ -24318,7 +24318,7 @@ mondata SPECIES_GASTRODON_EAST_SEA, "-----"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_STICKY_HOLD,  ABILITY_STORM_DRAIN
+    abilities ABILITY_STICKY_HOLD, ABILITY_WATER_ABSORB
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 
@@ -26702,7 +26702,7 @@ mondata SPECIES_FRILLISH_FEMALE, "-----"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_WATER_ABSORB, ABILITY_CURSED_BODY
+    abilities ABILITY_SHADOW_SHIELD, ABILITY_DAMP
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
 
@@ -26718,7 +26718,7 @@ mondata SPECIES_JELLICENT_FEMALE, "-----"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_WATER_ABSORB, ABILITY_CURSED_BODY
+    abilities ABILITY_SHADOW_SHIELD, ABILITY_DAMP
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
 
