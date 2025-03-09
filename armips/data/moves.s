@@ -1420,8 +1420,8 @@ movedata MOVE_THUNDER, "Thunder"
 
 movedata MOVE_ROCK_THROW, "Rock Throw"
     battleeffect MOVE_EFFECT_HIT
-    pss SPLIT_PHYSICAL
-    basepower 50
+    pss SPLIT_SPECIAL
+    basepower 55
     type TYPE_ROCK
     accuracy 100
     pp 15
