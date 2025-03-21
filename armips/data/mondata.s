@@ -26750,7 +26750,7 @@ mondata SPECIES_LILLIGANT_HISUIAN, "-----"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    abilities ABILITY_CHLOROPHYLL, ABILITY_HUSTLE
+    abilities ABILITY_CHLOROPHYLL, ABILITY_INNER_FOCUS
     runchance 0
     colorflip BODY_COLOR_EGG, 0
 
