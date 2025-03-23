@@ -13710,7 +13710,7 @@ movedata MOVE_SILK_TRAP, "Silk Trap"
 movedata MOVE_AXE_KICK, "Axe Kick"
     battleeffect MOVE_EFFECT_CONFUSE_AND_CRASH_IF_MISS
     pss SPLIT_PHYSICAL
-    basepower 120
+    basepower 130
     type TYPE_FIGHTING
     accuracy 90
     pp 10

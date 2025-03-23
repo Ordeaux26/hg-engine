@@ -12709,22 +12709,18 @@ levelup SPECIES_WHIMSICOTT
 
 levelup SPECIES_PETILIL
     learnset MOVE_ABSORB, 1
-    learnset MOVE_GROWTH, 1
-    learnset MOVE_GROWTH, 4
-    learnset MOVE_MEGA_DRAIN, 10
-    learnset MOVE_STUN_SPORE, 13
-    learnset MOVE_SLEEP_POWDER, 14
-    learnset MOVE_HELPING_HAND, 16
-    learnset MOVE_MAGICAL_LEAF, 16
-    learnset MOVE_LEECH_SEED, 16
-    learnset MOVE_AROMATHERAPY, 19
-    learnset MOVE_GIGA_DRAIN, 23
-    learnset MOVE_SYNTHESIS, 25
-    learnset MOVE_ENERGY_BALL, 32
-    learnset MOVE_AFTER_YOU, 34
-    learnset MOVE_SUNNY_DAY, 37
-    learnset MOVE_ENTRAINMENT, 38
-    learnset MOVE_LEAF_STORM, 43
+    learnset MOVE_SWEET_SCENT, 1
+    learnset MOVE_ENTRAINMENT, 7
+    learnset MOVE_STUN_SPORE, 11
+    learnset MOVE_MEGA_DRAIN, 15
+    learnset MOVE_SYNTHESIS, 18
+    learnset MOVE_GIGA_DRAIN, 22
+    learnset MOVE_SEED_BOMB, 27
+    learnset MOVE_POLLEN_PUFF, 31
+    learnset MOVE_ENERGY_BALL, 38
+    learnset MOVE_LEAF_STORM, 47
+    learnset MOVE_SLEEP_POWDER, 55
+    learnset MOVE_ENCORE, 64
     terminatelearnset
 
 
@@ -28606,30 +28602,24 @@ levelup SPECIES_SAMUROTT_HISUIAN
 
 
 levelup SPECIES_LILLIGANT_HISUIAN
-    learnset MOVE_VICTORY_DANCE, 0
-    learnset MOVE_VICTORY_DANCE, 1
-    learnset MOVE_PETAL_BLIZZARD, 1
-    learnset MOVE_TEETER_DANCE, 1
     learnset MOVE_DEFOG, 1
-    learnset MOVE_LEAF_BLADE, 1
-    learnset MOVE_MEGA_KICK, 1
-    learnset MOVE_SOLAR_BLADE, 1
-    learnset MOVE_MEGA_DRAIN, 1
-    learnset MOVE_MAGICAL_LEAF, 1
-    learnset MOVE_SLEEP_POWDER, 1
-    learnset MOVE_GIGA_DRAIN, 1
-    learnset MOVE_LEECH_SEED, 1
-    learnset MOVE_AFTER_YOU, 1
-    learnset MOVE_ENERGY_BALL, 1
-    learnset MOVE_SYNTHESIS, 1
-    learnset MOVE_SUNNY_DAY, 1
-    learnset MOVE_ENTRAINMENT, 1
-    learnset MOVE_LEAF_STORM, 1
     learnset MOVE_ABSORB, 1
-    learnset MOVE_GROWTH, 1
-    learnset MOVE_HELPING_HAND, 1
+    learnset MOVE_TRAILBLAZE, 1
+    learnset MOVE_SWEET_SCENT, 1
+    learnset MOVE_ICE_SPINNER, 1
+    learnset MOVE_TRIPLE_AXEL, 1
+    learnset MOVE_ENTRAINMENT, 1
     learnset MOVE_STUN_SPORE, 1
-    learnset MOVE_AXE_KICK, 5
+    learnset MOVE_MEGA_DRAIN, 1
+    learnset MOVE_SYNTHESIS, 1
+    learnset MOVE_SEED_BOMB, 27
+    learnset MOVE_LOW_SWEEP, 32
+    learnset MOVE_LEAF_BLADE, 36
+    learnset MOVE_ACROBATICS, 41
+    learnset MOVE_LOW_KICK, 45
+    learnset MOVE_CLOSE_COMBAT, 51
+    learnset MOVE_SOLAR_BLADE, 58
+    learnset MOVE_AXE_KICK, 63
     terminatelearnset
 
 
