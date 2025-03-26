@@ -9812,7 +9812,7 @@ mondata SPECIES_ELECTIVIRE, "Electivire"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_STATIC, ABILITY_VITAL_SPIRIT
+    abilities ABILITY_IRON_FIST, ABILITY_VITAL_SPIRIT
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_ELECTIVIRE, "As its electric charge amplifies,\nblue sparks begin to crackle between\nits horns."
@@ -9833,7 +9833,7 @@ mondata SPECIES_MAGMORTAR, "Magmortar"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_FLAME_BODY, ABILITY_VITAL_SPIRIT
+    abilities ABILITY_MEGA_LAUNCHER, ABILITY_VITAL_SPIRIT
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_MAGMORTAR, "It blasts fireballs of over\n3,600 degrees Fahrenheit out of its\narms. Its breath also sears and sizzles."

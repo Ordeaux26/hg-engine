@@ -3968,57 +3968,57 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 16, 16, 16, 16, 16, 16, 16, 16, 13, 13, 13, 13
+walklevels 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18
 
 // morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_SNUBBULL
+pokemon SPECIES_ELGYEM
+pokemon SPECIES_MINCCINO
+pokemon SPECIES_ELGYEM
+pokemon SPECIES_MINCCINO
+pokemon SPECIES_PORYGON
+pokemon SPECIES_PORYGON
+pokemon SPECIES_AUDINO
+pokemon SPECIES_AUDINO
+pokemon SPECIES_LICKITUNG
+pokemon SPECIES_HELIOPTILE
+pokemon SPECIES_LICKITUNG
+pokemon SPECIES_DEERLING
 
 // day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_SNUBBULL
+pokemon SPECIES_CHINGLING
+pokemon SPECIES_AUDINO
+pokemon SPECIES_CHINGLING
+pokemon SPECIES_AUDINO
+pokemon SPECIES_RUFFLET
+pokemon SPECIES_RUFFLET
+pokemon SPECIES_FURFROU
+pokemon SPECIES_FURFROU
+pokemon SPECIES_LICKITUNG
+pokemon SPECIES_DEDENNE
+pokemon SPECIES_LICKITUNG
+pokemon SPECIES_DEERLING
 
 // night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_SNUBBULL
+pokemon SPECIES_PORYGON
+pokemon SPECIES_VULLABY
+pokemon SPECIES_PORYGON
+pokemon SPECIES_VULLABY
+pokemon SPECIES_FURFROU
+pokemon SPECIES_FURFROU
+pokemon SPECIES_MINCCINO
+pokemon SPECIES_MINCCINO
+pokemon SPECIES_BIDOOF
+pokemon SPECIES_LICKITUNG
+pokemon SPECIES_BIDOOF
+pokemon SPECIES_PATRAT
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_NONE
+pokemon SPECIES_NONE
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_NONE
+pokemon SPECIES_NONE
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -4053,7 +4053,7 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // swarm grass
-pokemon SPECIES_SNUBBULL
+pokemon SPECIES_NONE
 // swarm surf
 pokemon SPECIES_NONE
 // swarm good rod

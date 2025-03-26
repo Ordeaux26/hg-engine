@@ -10479,9 +10479,9 @@ levelup SPECIES_ELECTIVIRE
     learnset MOVE_CROSS_CHOP, 50
     learnset MOVE_EARTHQUAKE, 54
     learnset MOVE_VOLT_SWITCH, 59
-    learnset MOVE_PLASMA_FISTS, 66
+    learnset MOVE_ZAP_CANNON, 66
     learnset MOVE_DOUBLE_EDGE, 68
-    learnset MOVE_ZAP_CANNON, 70
+    learnset MOVE_PLASMA_FISTS, 70
     learnset MOVE_THUNDER, 75
     learnset MOVE_BULK_UP, 87
     terminatelearnset
