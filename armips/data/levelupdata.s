@@ -16221,24 +16221,24 @@ levelup SPECIES_HAWLUCHA
 
 levelup SPECIES_DEDENNE
     learnset MOVE_NUZZLE, 1
-    learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_TACKLE, 1
-    learnset MOVE_TACKLE, 5
-    learnset MOVE_CHARGE, 10
-    learnset MOVE_THUNDER_SHOCK, 11
-    learnset MOVE_CHARM, 17
-    learnset MOVE_NUZZLE, 20
+    learnset MOVE_CHARM, 1
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_THUNDER_SHOCK, 8
+    learnset MOVE_FAIRY_WIND, 13
+    learnset MOVE_SUPER_FANG, 17
+    learnset MOVE_ELECTROWEB, 17
     learnset MOVE_PARABOLIC_CHARGE, 21
-    learnset MOVE_THUNDER_WAVE, 23
-    learnset MOVE_VOLT_SWITCH, 28
-    learnset MOVE_REST, 32
-    learnset MOVE_SNORE, 33
-    learnset MOVE_CHARGE_BEAM, 34
-    learnset MOVE_PLAY_ROUGH, 43
-    learnset MOVE_DISCHARGE, 44
-    learnset MOVE_ENTRAINMENT, 47
-    learnset MOVE_SUPER_FANG, 50
-    learnset MOVE_THUNDER, 53
+    learnset MOVE_DRAINING_KISS, 23
+    learnset MOVE_DISCHARGE, 27
+    learnset MOVE_DAZZLING_GLEAM, 31
+    learnset MOVE_THUNDERBOLT, 34
+    learnset MOVE_VOLT_SWITCH, 39
+    learnset MOVE_EERIE_IMPULSE, 42
+    learnset MOVE_MOONBLAST, 45
+    learnset MOVE_THUNDER, 50
+    learnset MOVE_CHARGE_BEAM, 59
+    learnset MOVE_HELPING_HAND, 64
     terminatelearnset
 
 
