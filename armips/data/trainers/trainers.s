@@ -979,7 +979,7 @@ trainerdata 21, "Bugsy"
         pokemon SPECIES_VIVILLON
         item ITEM_EJECT_BUTTON
         move MOVE_SLEEP_POWDER
-        move MOVE_POWDER
+        move MOVE_LIGHT_SCREEN
         move MOVE_AIR_CUTTER
         move MOVE_ROOST
         ability ABILITY_COMPOUND_EYES
@@ -10058,10 +10058,10 @@ trainerdata 247, "Koga"
         level 100
         pokemon SPECIES_TORNADUS
         item ITEM_LUM_BERRY
-        move MOVE_GRAVITY
         move MOVE_HURRICANE
         move MOVE_SLUDGE_WAVE
         move MOVE_FOCUS_BLAST
+        move MOVE_SCARY_FACE
         ability ABILITY_PRANKSTER
         ball ITEM_MASTER_BALL
         setivs 31, 31, 31, 31, 31, 31
@@ -27841,7 +27841,7 @@ trainerdata 700, "Giovanni"
         move MOVE_BOLT_STRIKE
         move MOVE_DRAGON_RUSH
         move MOVE_EARTHQUAKE
-        move MOVE_HONE_CLAWS
+        move MOVE_DRAGON_DANCE
         ability ABILITY_LEVITATE
         ball ITEM_MASTER_BALL
         setivs 31, 31, 31, 31, 31, 31
@@ -28186,10 +28186,10 @@ trainerdata 703, "Koga"
         level 100
         pokemon SPECIES_TORNADUS
         item ITEM_LUM_BERRY
-        move MOVE_GRAVITY
         move MOVE_HURRICANE
         move MOVE_SLUDGE_WAVE
         move MOVE_FOCUS_BLAST
+        move MOVE_SCARY_FACE
         ability ABILITY_PRANKSTER
         ball ITEM_MASTER_BALL
         setivs 31, 31, 31, 31, 31, 31
@@ -28534,12 +28534,12 @@ trainerdata 706, "Proton"
         abilityslot 0
         level 66
         pokemon SPECIES_MAGNEZONE
-        item ITEM_CUSTAP_BERRY
+        item ITEM_EJECT_BUTTON
         move MOVE_THUNDERBOLT
         move MOVE_FLASH_CANNON
         move MOVE_TRI_ATTACK
         move MOVE_EXPLOSION
-        ability ABILITY_LEVITATE
+        ability ABILITY_STURDY
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
