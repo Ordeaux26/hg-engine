@@ -17090,14 +17090,14 @@ trainerdata 418, "Bruno"
         pokemon SPECIES_GLISCOR
         item ITEM_YACHE_BERRY
         move MOVE_EARTHQUAKE
-        move MOVE_ROOST
         move MOVE_DUAL_WINGBEAT
-        move MOVE_BRICK_BREAK
+        move MOVE_STONE_EDGE
+        move MOVE_TAILWIND
         ability ABILITY_POISON_HEAL
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_GENTLE
+        nature NATURE_CAREFUL
         shinylock 0
         additionalflags TRAINER_DATA_EXTRA_TYPE_STATUS
         status 0x08
@@ -19743,7 +19743,7 @@ trainerdata 485, "Archer"
         pokemon SPECIES_DARMANITAN
         item ITEM_CHOICE_BAND
         move MOVE_V_CREATE
-        move MOVE_NONE
+        move MOVE_SUPERPOWER
         move MOVE_NONE
         move MOVE_NONE
         ability ABILITY_GORILLA_TACTICS
@@ -28255,14 +28255,14 @@ trainerdata 704, "Bruno"
         pokemon SPECIES_GLISCOR
         item ITEM_YACHE_BERRY
         move MOVE_EARTHQUAKE
-        move MOVE_ROOST
         move MOVE_DUAL_WINGBEAT
-        move MOVE_BRICK_BREAK
+        move MOVE_STONE_EDGE
+        move MOVE_TAILWIND
         ability ABILITY_POISON_HEAL
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_GENTLE
+        nature NATURE_CAREFUL
         shinylock 0
         additionalflags TRAINER_DATA_EXTRA_TYPE_STATUS
         status 0x08
@@ -30856,7 +30856,7 @@ trainerdata 740, "Jack"
         level 92
         pokemon SPECIES_GALLADE
         item ITEM_GALLADITE
-        move MOVE_CLOSE_COMBAT
+        move MOVE_SACRED_SWORD
         move MOVE_PSYCHO_CUT
         move MOVE_TRIPLE_AXEL
         move MOVE_SWORDS_DANCE
