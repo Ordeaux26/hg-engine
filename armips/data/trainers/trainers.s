@@ -10075,7 +10075,7 @@ trainerdata 247, "Koga"
         abilityslot 0
         level 100
         pokemon SPECIES_CHANDELURE
-        item ITEM_FLAME_PLATE
+        item ITEM_EXPERT_BELT
         move MOVE_FIRE_BLAST
         move MOVE_OMINOUS_WIND
         move MOVE_ENERGY_BALL
@@ -28203,7 +28203,7 @@ trainerdata 703, "Koga"
         abilityslot 0
         level 100
         pokemon SPECIES_CHANDELURE
-        item ITEM_FLAME_PLATE
+        item ITEM_EXPERT_BELT
         move MOVE_FIRE_BLAST
         move MOVE_OMINOUS_WIND
         move MOVE_ENERGY_BALL
