@@ -8923,9 +8923,9 @@ movedata MOVE_FREEZE_SHOCK, "Freeze Shock"
     movedescription MOVE_FREEZE_SHOCK, "A two-turn attack\nthat hits the foe\nwith electrically\ncharged ice. It may\nparalyze the foe."
 
 movedata MOVE_ICE_BURN, "Ice Burn"
-    battleeffect MOVE_EFFECT_BURN_HIT
+    battleeffect MOVE_EFFECT_CHARGE_TURN_SP_ATK_UP
     pss SPLIT_SPECIAL
-    basepower 150
+    basepower 130
     type TYPE_ICE
     accuracy 100
     pp 5

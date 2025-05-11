@@ -13097,50 +13097,44 @@ levelup SPECIES_COFAGRIGUS
 
 levelup SPECIES_TIRTOUGA
     learnset MOVE_WATER_GUN, 1
-    learnset MOVE_WITHDRAW, 1
-    learnset MOVE_BIDE, 1
-    learnset MOVE_ROLLOUT, 5
-    learnset MOVE_PROTECT, 6
-    learnset MOVE_AQUA_JET, 10
-    learnset MOVE_BITE, 11
-    learnset MOVE_ANCIENT_POWER, 14
-    learnset MOVE_SMACK_DOWN, 19
-    learnset MOVE_WIDE_GUARD, 21
-    learnset MOVE_BRINE, 24
-    learnset MOVE_CRUNCH, 24
-    learnset MOVE_CURSE, 32
-    learnset MOVE_ROCK_SLIDE, 33
-    learnset MOVE_IRON_DEFENSE, 33
-    learnset MOVE_AQUA_TAIL, 38
-    learnset MOVE_SHELL_SMASH, 41
-    learnset MOVE_RAIN_DANCE, 43
-    learnset MOVE_HYDRO_PUMP, 45
+    learnset MOVE_SMACK_DOWN, 1
+    learnset MOVE_PROTECT, 7
+    learnset MOVE_AQUA_JET, 11
+    learnset MOVE_BITE, 15
+    learnset MOVE_RAZOR_SHELL, 18
+    learnset MOVE_ROCK_TOMB, 21
+    learnset MOVE_KNOCK_OFF, 25
+    learnset MOVE_WATERFALL, 29
+    learnset MOVE_CRUNCH, 32
+    learnset MOVE_ROCK_SLIDE, 37
+    learnset MOVE_LIQUIDATION, 41
+    learnset MOVE_IRON_TAIL, 44
+    learnset MOVE_AQUA_TAIL, 48
+    learnset MOVE_STONE_EDGE, 52
     terminatelearnset
 
 
 levelup SPECIES_CARRACOSTA
     learnset MOVE_WATER_GUN, 1
-    learnset MOVE_WITHDRAW, 1
-    learnset MOVE_PROTECT, 1
+    learnset MOVE_SMACK_DOWN, 1
+    learnset MOVE_WIDE_GUARD, 1
     learnset MOVE_AQUA_JET, 1
-    learnset MOVE_BIDE, 1
-    learnset MOVE_ROLLOUT, 1
-    learnset MOVE_ROLLOUT, 5
-    learnset MOVE_BITE, 11
-    learnset MOVE_PROTECT, 11
-    learnset MOVE_ANCIENT_POWER, 14
-    learnset MOVE_AQUA_JET, 15
-    learnset MOVE_SMACK_DOWN, 19
-    learnset MOVE_WIDE_GUARD, 21
-    learnset MOVE_BRINE, 24
-    learnset MOVE_CRUNCH, 24
-    learnset MOVE_CURSE, 32
-    learnset MOVE_IRON_DEFENSE, 33
-    learnset MOVE_ROCK_SLIDE, 36
-    learnset MOVE_AQUA_TAIL, 40
-    learnset MOVE_SHELL_SMASH, 45
-    learnset MOVE_RAIN_DANCE, 48
-    learnset MOVE_HYDRO_PUMP, 53
+    learnset MOVE_BLOCK, 1
+    learnset MOVE_BITE, 1
+    learnset MOVE_RAZOR_SHELL, 1
+    learnset MOVE_KNOCK_OFF, 1
+    learnset MOVE_WATERFALL, 1
+    learnset MOVE_PROTECT, 1
+    learnset MOVE_CRUNCH, 32
+    learnset MOVE_ROCK_SLIDE, 37
+    learnset MOVE_LIQUIDATION, 41
+    learnset MOVE_IRON_TAIL, 45
+    learnset MOVE_AQUA_TAIL, 49
+    learnset MOVE_STONE_EDGE, 53
+    learnset MOVE_WAVE_CRASH, 57
+    learnset MOVE_ROCK_WRECKER, 65
+    learnset MOVE_SUPERPOWER, 68
+    learnset MOVE_HEAD_SMASH, 72
     terminatelearnset
 
 

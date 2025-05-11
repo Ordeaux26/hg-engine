@@ -2924,61 +2924,61 @@ encounterdata  28   // Burned Tower 1F
 
 walkrate 10
 surfrate 0
-rocksmashrate 0
+rocksmashrate 40
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 13, 14, 13, 14, 15, 15, 14, 14, 16, 15, 16, 15
+walklevels 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18
 
 // morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
+pokemon SPECIES_PANSAGE
+pokemon SPECIES_ROSELIA
+pokemon SPECIES_PANSAGE
+pokemon SPECIES_ROSELIA
+pokemon SPECIES_CHERUBI
+pokemon SPECIES_CHERUBI
+pokemon SPECIES_RIOLU
+pokemon SPECIES_RIOLU
+pokemon SPECIES_SOLOSIS
+pokemon SPECIES_QUILADIN
+pokemon SPECIES_SOLOSIS
+pokemon SPECIES_ELGYEM
 
 // day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
+pokemon SPECIES_MIENFOO
+pokemon SPECIES_TANGELA
+pokemon SPECIES_MIENFOO
+pokemon SPECIES_TANGELA
+pokemon SPECIES_SKIDDO
+pokemon SPECIES_SKIDDO
+pokemon SPECIES_DEDENNE
+pokemon SPECIES_DEDENNE
+pokemon SPECIES_CHERUBI
+pokemon SPECIES_SERVINE
+pokemon SPECIES_CHERUBI
+pokemon SPECIES_PURRLOIN
 
 // night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
+pokemon SPECIES_ROSELIA
+pokemon SPECIES_BUNNELBY
+pokemon SPECIES_ROSELIA
+pokemon SPECIES_BUNNELBY
+pokemon SPECIES_PANSAGE
+pokemon SPECIES_PANSAGE
+pokemon SPECIES_TANGELA
+pokemon SPECIES_TANGELA
+pokemon SPECIES_GOTHITA
+pokemon SPECIES_GROTLE
+pokemon SPECIES_GOTHITA
+pokemon SPECIES_SANDILE
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_NONE
+pokemon SPECIES_NONE
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_NONE
+pokemon SPECIES_NONE
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -2988,8 +2988,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NOSEPASS, 10, 10
+encounter SPECIES_BINACLE, 10, 10
 
 // old rod encounters
 encounter SPECIES_NONE, 0, 0
@@ -3013,7 +3013,7 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // swarm grass
-pokemon SPECIES_RATTATA
+pokemon SPECIES_NONE
 // swarm surf
 pokemon SPECIES_NONE
 // swarm good rod
@@ -3028,61 +3028,61 @@ encounterdata  29   // Burned Tower B1F
 
 walkrate 10
 surfrate 0
-rocksmashrate 0
+rocksmashrate 40
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 14, 14, 14, 14, 16, 16, 16, 16, 15, 14, 15, 14
+walklevels 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18
 
 // morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAGMAR
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAGMAR
+pokemon SPECIES_MAGBY
+pokemon SPECIES_FLETCHINDER
+pokemon SPECIES_MAGBY
+pokemon SPECIES_FLETCHINDER
+pokemon SPECIES_PANSEAR
+pokemon SPECIES_PANSEAR
+pokemon SPECIES_LARVESTA
+pokemon SPECIES_LARVESTA
+pokemon SPECIES_LITLEO
+pokemon SPECIES_BRAIXEN
+pokemon SPECIES_LITLEO
+pokemon SPECIES_BRAIXEN
 
 // day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_MAGMAR
-pokemon SPECIES_MAGMAR
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
+pokemon SPECIES_LITLEO
+pokemon SPECIES_FLETCHINDER
+pokemon SPECIES_LITLEO
+pokemon SPECIES_FLETCHINDER
+pokemon SPECIES_PANSEAR
+pokemon SPECIES_PANSEAR
+pokemon SPECIES_LARVESTA
+pokemon SPECIES_LARVESTA
+pokemon SPECIES_DARUMAKA
+pokemon SPECIES_PIGNITE
+pokemon SPECIES_DARUMAKA
+pokemon SPECIES_PIGNITE
 
 // night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAGMAR
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAGMAR
+pokemon SPECIES_DARUMAKA
+pokemon SPECIES_PANSEAR
+pokemon SPECIES_DARUMAKA
+pokemon SPECIES_PANSEAR
+pokemon SPECIES_MAGBY
+pokemon SPECIES_MAGBY
+pokemon SPECIES_FLETCHINDER
+pokemon SPECIES_FLETCHINDER
+pokemon SPECIES_LARVESTA
+pokemon SPECIES_MONFERNO
+pokemon SPECIES_LARVESTA
+pokemon SPECIES_MONFERNO
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_NONE
+pokemon SPECIES_NONE
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_NONE
+pokemon SPECIES_NONE
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -3092,8 +3092,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NOSEPASS, 10, 10
+encounter SPECIES_BINACLE, 10, 10
 
 // old rod encounters
 encounter SPECIES_NONE, 0, 0
@@ -3117,7 +3117,7 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // swarm grass
-pokemon SPECIES_RATTATA
+pokemon SPECIES_NONE
 // swarm surf
 pokemon SPECIES_NONE
 // swarm good rod
