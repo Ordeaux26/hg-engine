@@ -8854,6 +8854,7 @@ levelup SPECIES_GROTLE
 levelup SPECIES_TORTERRA
     learnset MOVE_TAKE_DOWN, 1
     learnset MOVE_GROWL, 1
+    learnset MOVE_TRAILBLAZE, 1
     learnset MOVE_HEAD_SMASH, 1
     learnset MOVE_MEGA_DRAIN, 1
     learnset MOVE_BITE, 1

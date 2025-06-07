@@ -8481,30 +8481,88 @@ trainerdata 203, "Phillip"
     endparty
 
 trainerdata 204, "Leonard"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 204
-        // mon 0
         ivs 0
-        abilityslot 32
-        level 23
-        pokemon SPECIES_GEODUDE
+        abilityslot 0
+        level 31
+        pokemon SPECIES_CHATOT
+        item ITEM_THROAT_SPRAY
+        move MOVE_HYPER_VOICE
+        move MOVE_CHATTER
+        move MOVE_STEEL_WING
+        move MOVE_ROOST
+        ability ABILITY_SOUNDPROOF
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_GENTLE
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 1
         ivs 0
-        abilityslot 32
-        level 25
-        pokemon SPECIES_MACHOP
+        abilityslot 0
+        level 32
+        pokemon SPECIES_YANMA
+        item ITEM_CHOICE_SCARF
+        move MOVE_U_TURN
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ability ABILITY_TINTED_LENS
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_NAUGHTY
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_HEATMOR
+        item ITEM_EJECT_BUTTON
+        move MOVE_FIRE_LASH
+        move MOVE_GIGA_IMPACT
+        move MOVE_ROCK_TOMB
+        move MOVE_FIRE_SPIN
+        ability ABILITY_FLASH_FIRE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_RELAXED
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_STUNFISK
+        item ITEM_PASSHO_BERRY
+        move MOVE_PARABOLIC_CHARGE
+        move MOVE_MUD_SHOT
+        move MOVE_SCALD
+        move MOVE_YAWN
+        ability ABILITY_ARENA_TRAP
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_CALM
+        shinylock 0
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -10177,7 +10235,7 @@ trainerdata 247, "Koga"
         move MOVE_HURRICANE
         move MOVE_SLUDGE_WAVE
         move MOVE_FOCUS_BLAST
-        move MOVE_SCARY_FACE
+        move MOVE_ROOST
         ability ABILITY_PRANKSTER
         ball ITEM_MASTER_BALL
         setivs 31, 31, 31, 31, 31, 31
@@ -28305,7 +28363,7 @@ trainerdata 703, "Koga"
         move MOVE_HURRICANE
         move MOVE_SLUDGE_WAVE
         move MOVE_FOCUS_BLAST
-        move MOVE_SCARY_FACE
+        move MOVE_ROOST
         ability ABILITY_PRANKSTER
         ball ITEM_MASTER_BALL
         setivs 31, 31, 31, 31, 31, 31
