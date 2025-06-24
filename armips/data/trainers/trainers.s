@@ -553,30 +553,106 @@ trainerdata 12, "Grunt"
     endparty
 
 trainerdata 13, "Grunt"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 13
-        // mon 0
-        ivs 30
+        ivs 0
         abilityslot 0
-        level 9
-        pokemon SPECIES_ZUBAT
+        level 27
+        pokemon SPECIES_CRANIDOS
+        item ITEM_QUICK_CLAW
+        move MOVE_HEAD_SMASH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ability ABILITY_ROCK_HEAD
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 1
-        ivs 30
+        ivs 0
         abilityslot 0
-        level 11
-        pokemon SPECIES_EKANS
+        level 28
+        pokemon SPECIES_GROTLE
+        item ITEM_BIG_ROOT
+        move MOVE_GIGA_DRAIN
+        move MOVE_BULLDOZE
+        move MOVE_SUBSTITUTE
+        move MOVE_LEECH_SEED
+        ability ABILITY_SHELL_ARMOR
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BOLD
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 28
+        pokemon SPECIES_HONEDGE
+        item ITEM_EVIOLITE
+        move MOVE_SHADOW_CLAW
+        move MOVE_IRON_HEAD
+        move MOVE_SHADOW_SNEAK
+        move MOVE_SWORDS_DANCE
+        ability ABILITY_NO_GUARD
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_QUIET
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 27
+        pokemon SPECIES_LIEPARD
+        item ITEM_LUM_BERRY
+        move MOVE_METRONOME
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ability ABILITY_PRANKSTER
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_DOCILE
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_RHYDON
+        item ITEM_SOFT_SAND
+        move MOVE_BULLDOZE
+        move MOVE_ROCK_TOMB
+        move MOVE_TAKE_DOWN
+        move MOVE_STEALTH_ROCK
+        ability ABILITY_ROCK_HEAD
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_CALM
+        shinylock 0
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -9829,8 +9905,8 @@ trainerdata 244, "Lance"
         abilityslot 0
         level 100
         pokemon SPECIES_GARCHOMP
-        item ITEM_YACHE_BERRY
-        move MOVE_DRAGON_RUSH
+        item ITEM_GARCHOMPITE
+        move MOVE_GLAIVE_RUSH
         move MOVE_EARTHQUAKE
         move MOVE_FIRE_BLAST
         move MOVE_SWORDS_DANCE
@@ -28080,7 +28156,7 @@ trainerdata 701, "Lance"
         level 100
         pokemon SPECIES_GARCHOMP
         item ITEM_GARCHOMPITE
-        move MOVE_DRAGON_RUSH
+        move MOVE_GLAIVE_RUSH
         move MOVE_EARTHQUAKE
         move MOVE_FIRE_BLAST
         move MOVE_SWORDS_DANCE
