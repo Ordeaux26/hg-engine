@@ -12289,51 +12289,46 @@ levelup SPECIES_SWOOBAT
 
 
 levelup SPECIES_DRILBUR
-    learnset MOVE_MUD_SLAP, 1
-    learnset MOVE_RAPID_SPIN, 1
     learnset MOVE_SCRATCH, 1
-    learnset MOVE_MUD_SPORT, 1
-    learnset MOVE_SCRATCH, 4
-    learnset MOVE_RAPID_SPIN, 5
-    learnset MOVE_MUD_SLAP, 8
-    learnset MOVE_FURY_SWIPES, 12
-    learnset MOVE_HONE_CLAWS, 14
-    learnset MOVE_METAL_CLAW, 15
-    learnset MOVE_CRUSH_CLAW, 24
-    learnset MOVE_DIG, 25
-    learnset MOVE_SLASH, 26
-    learnset MOVE_ROCK_SLIDE, 28
-    learnset MOVE_SANDSTORM, 29
-    learnset MOVE_SWORDS_DANCE, 36
-    learnset MOVE_EARTHQUAKE, 38
-    learnset MOVE_DRILL_RUN, 41
-    learnset MOVE_FISSURE, 47
+    learnset MOVE_MUD_SLAP, 1
+    learnset MOVE_METAL_CLAW, 5
+    learnset MOVE_AERIAL_ACE, 8
+    learnset MOVE_BULLDOZE, 12
+    learnset MOVE_RAPID_SPIN, 17
+    learnset MOVE_SLASH, 21
+    learnset MOVE_STOMPING_TANTRUM, 25
+    learnset MOVE_CRUSH_CLAW, 28
+    learnset MOVE_ROCK_SLIDE, 31
+    learnset MOVE_DRILL_RUN, 35
+    learnset MOVE_X_SCISSOR, 37
+    learnset MOVE_HIGH_HORSEPOWER, 40
+    learnset MOVE_EARTHQUAKE, 45
     terminatelearnset
 
 
 levelup SPECIES_EXCADRILL
-    learnset MOVE_HORN_DRILL, 0
-    learnset MOVE_HORN_DRILL, 1
-    learnset MOVE_MUD_SLAP, 1
-    learnset MOVE_RAPID_SPIN, 1
     learnset MOVE_SCRATCH, 1
-    learnset MOVE_HONE_CLAWS, 1
+    learnset MOVE_MUD_SLAP, 1
+    learnset MOVE_DOUBLE_EDGE, 1
     learnset MOVE_ROTOTILLER, 1
-    learnset MOVE_MUD_SPORT, 1
-    learnset MOVE_RAPID_SPIN, 5
-    learnset MOVE_MUD_SLAP, 8
-    learnset MOVE_FURY_SWIPES, 12
-    learnset MOVE_METAL_CLAW, 15
-    learnset MOVE_HONE_CLAWS, 22
-    learnset MOVE_CRUSH_CLAW, 24
-    learnset MOVE_SLASH, 26
-    learnset MOVE_DIG, 27
-    learnset MOVE_ROCK_SLIDE, 28
-    learnset MOVE_SANDSTORM, 33
-    learnset MOVE_SWORDS_DANCE, 40
-    learnset MOVE_EARTHQUAKE, 44
-    learnset MOVE_DRILL_RUN, 50
-    learnset MOVE_FISSURE, 59
+    learnset MOVE_METAL_CLAW, 1
+    learnset MOVE_BULLDOZE, 1
+    learnset MOVE_RAPID_SPIN, 1
+    learnset MOVE_SLASH, 1
+    learnset MOVE_STOMPING_TANTRUM, 1
+    learnset MOVE_CRUSH_CLAW, 1
+    learnset MOVE_ROCK_SLIDE, 31
+    learnset MOVE_SMART_STRIKE, 34
+    learnset MOVE_DRILL_RUN, 37
+    learnset MOVE_IRON_HEAD, 39
+    learnset MOVE_X_SCISSOR, 42
+    learnset MOVE_HIGH_HORSEPOWER, 45
+    learnset MOVE_THROAT_CHOP, 47
+    learnset MOVE_EARTHQUAKE, 50
+    learnset MOVE_STONE_EDGE, 57
+    learnset MOVE_HORN_DRILL, 61
+    learnset MOVE_GUILLOTINE, 68
+    learnset MOVE_FISSURE, 73
     terminatelearnset
 
 

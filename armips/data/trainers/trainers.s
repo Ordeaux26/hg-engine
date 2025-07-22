@@ -518,37 +518,70 @@ trainerdata 11, "Mickey"
     endparty
 
 trainerdata 12, "Grunt"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 12
-        // mon 0
-        ivs 30
-        abilityslot 32
-        level 7
-        pokemon SPECIES_RATTATA
+        ivs 0
+        abilityslot 0
+        level 28
+        pokemon SPECIES_ELECTABUZZ
+        item ITEM_ELECTRIC_GEM
+        move MOVE_THUNDER_PUNCH
+        move MOVE_ICE_PUNCH
+        move MOVE_FIRE_PUNCH
+        move MOVE_THUNDER_WAVE
+        ability ABILITY_STATIC
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BASHFUL
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 1
-        ivs 30
+        ivs 0
         abilityslot 0
-        level 9
-        pokemon SPECIES_ZUBAT
+        level 28
+        pokemon SPECIES_SAWSBUCK
+        item ITEM_MIRACLE_SEED
+        move MOVE_HORN_LEECH
+        move MOVE_HEADBUTT
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_STOMPING_TANTRUM
+        ability ABILITY_SERENE_GRACE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BRAVE
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 2
-        ivs 30
+        ivs 0
         abilityslot 0
-        level 9
-        pokemon SPECIES_ZUBAT
+        level 28
+        pokemon SPECIES_MAGMAR
+        item ITEM_EVIOLITE
+        move MOVE_LAVA_PLUME
+        move MOVE_SCORCHING_SANDS
+        move MOVE_SMOKESCREEN
+        move MOVE_WILL_O_WISP
+        ability ABILITY_FLAME_BODY
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        shinylock 0
+        additionalflags 0
         ballseal 0
     endparty
 
