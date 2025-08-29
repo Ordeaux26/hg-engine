@@ -9182,10 +9182,10 @@ movedata MOVE_ION_DELUGE, "Ion Deluge"
 movedatalongname MOVE_PARABOLIC_CHARGE, "ParabolicCharge", "Parabolic Charge"
     battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
     pss SPLIT_SPECIAL
-    basepower 65
+    basepower 75
     type TYPE_ELECTRIC
     accuracy 100
-    pp 20
+    pp 10
     effectchance 0
     target RANGE_ALL_ADJACENT
     priority 0

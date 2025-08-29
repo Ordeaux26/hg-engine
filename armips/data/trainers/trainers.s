@@ -3725,30 +3725,70 @@ trainerdata 67, "Benny"
     endparty
 
 trainerdata 68, "Al"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 68
-        // mon 0
-        ivs 10
+        ivs 0
         abilityslot 0
-        level 12
-        pokemon SPECIES_CATERPIE
+        level 30
+        pokemon SPECIES_KARRABLAST
+        item ITEM_SILVER_POWDER
+        move MOVE_MEGAHORN
+        move MOVE_KNOCK_OFF
+        move MOVE_DRILL_RUN
+        move MOVE_SCARY_FACE
+        ability ABILITY_NO_GUARD
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        shinylock 0
+        additionalflags 0
         ballseal 0
 
-        // mon 1
-        ivs 10
+        ivs 0
         abilityslot 0
-        level 12
-        pokemon SPECIES_WEEDLE
+        level 30
+        pokemon SPECIES_JOLTIK
+        item ITEM_CHOICE_SPECS
+        move MOVE_THUNDERBOLT
+        move MOVE_BUG_BUZZ
+        move MOVE_NONE
+        move MOVE_NONE
+        ability ABILITY_UNNERVE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_NAIVE
+        shinylock 0
+        additionalflags 0
+        ballseal 0
+
+        ivs 0
+        abilityslot 0
+        level 29
+        pokemon SPECIES_KRICKETUNE
+        item ITEM_LUM_BERRY
+        move MOVE_BUG_BITE
+        move MOVE_BRICK_BREAK
+        move MOVE_NIGHT_SLASH
+        move MOVE_AERIAL_ACE
+        ability ABILITY_TECHNICIAN
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_DOCILE
+        shinylock 0
+        additionalflags 0
         ballseal 0
     endparty
 
